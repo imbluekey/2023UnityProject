@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - MouseAim
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background_Objects_Decoration
+    uniqueID: 4142592511
+    locked: 0
+  - name: Player
+    uniqueID: 4176379981
+    locked: 0
+  - name: Player_Objects_Equipments
+    uniqueID: 2377408431
+    locked: 0
+  - name: UI
+    uniqueID: 2286600773
+    locked: 0

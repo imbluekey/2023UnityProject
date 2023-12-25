@@ -27,7 +27,7 @@ public class ArrowPool : MonoBehaviour
         newArrow.gameObject.SetActive(false);
         return newArrow;
     }
-
+    //is it working good?
     private void Initialize(int count)
     {
         Debug.Log("Object pool : InitializeÇÔ¼ö ½ÇÇàµÊ . ");

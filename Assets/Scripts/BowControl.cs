@@ -22,7 +22,9 @@ public class BowControl : MonoBehaviour
         BowAnimator = GetComponent<Animator>(); //�ִϸ��̼� ������Ʈ�� �����´�. 
         
     }
+
     //test 12/27
+
     /*
      * �� �ڵ忡���� ������Ʈ Ǯ�� Ŭ������ �̿��Ͽ� ȭ�� ������Ʈ�� deque�Ѵ��� ����ϰ�,
      * ����ϰ� ���� enque�Ͽ� �ٽ� ��Ȱ��ȭ �Ѵ�. 

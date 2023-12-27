@@ -18,15 +18,17 @@ public class BowControl : MonoBehaviour
 
     void Start()
     {
-        Arrow.SetActive(false); // Ã³À½¿¡´Â ºñÈ°¼ºÈ­ ½ÃÅ´.
-        BowAnimator = GetComponent<Animator>(); //¾Ö´Ï¸ÞÀÌ¼Ç ÄÄÆ÷³ÍÆ®¸¦ °¡Á®¿Â´Ù. 
+        Arrow.SetActive(false); // Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½È­ ï¿½ï¿½Å´.
+        BowAnimator = GetComponent<Animator>(); //ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â´ï¿½. 
         
     }
-    //test
+
+    //test 12/27
+
     /*
-     * ÀÌ ÄÚµå¿¡¼­´Â ¿ÀºêÁ§Æ® Ç®¸µ Å¬·¡½º¸¦ ÀÌ¿ëÇÏ¿© È­»ì ¿ÀºêÁ§Æ®¸¦ dequeÇÑ´ÙÀ½ »ç¿ëÇÏ°í,
-     * »ç¿ëÇÏ°í ³ª¸é enqueÇÏ¿© ´Ù½Ã ºñÈ°¼ºÈ­ ÇÑ´Ù. 
-     * deque -> È°¼ºÈ­ -> »ç¿ë -> ºñÈ°¼ºÈ­ -> enque
+     * ï¿½ï¿½ ï¿½Úµå¿¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® Ç®ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ï¿ï¿½ È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ dequeï¿½Ñ´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°ï¿½,
+     * ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ enqueï¿½Ï¿ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½È°ï¿½ï¿½È­ ï¿½Ñ´ï¿½. 
+     * deque -> È°ï¿½ï¿½È­ -> ï¿½ï¿½ï¿½ -> ï¿½ï¿½È°ï¿½ï¿½È­ -> enque
      */
     void Update()
     {
@@ -47,10 +49,10 @@ public class BowControl : MonoBehaviour
         //Sets the position of "Bow" objects relative to "Player" object.
 
 
-        if (Input.GetMouseButtonDown(0)) // ¸¶¿ì½º ÁÂÅ¬¸¯ ÇßÀ»¶§
+        if (Input.GetMouseButtonDown(0)) // ï¿½ï¿½ï¿½ì½º ï¿½ï¿½Å¬ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         {
-            Debug.Log("È­»ì ÀåÀü ½ÃÀÛ");
-            BowAnimator.SetBool("BowBend", true); // È°À» ´ç±â´Â ¾Ö´Ï¸ÞÀÌ¼Ç ½ÃÀÛ
+            Debug.Log("È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+            BowAnimator.SetBool("BowBend", true); // È°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½
             
         }
         if (!Input.GetMouseButton(0)) 
@@ -59,9 +61,9 @@ public class BowControl : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
-            Debug.Log("È° ¹ß»ç");
+            Debug.Log("È° ï¿½ß»ï¿½");
 
-            BowAnimator.SetBool("BowBend", false); // È°À» ³õÀ½
+            BowAnimator.SetBool("BowBend", false); // È°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             
             {
                 Debug.Log("ArrowInstance is NULL!!!");

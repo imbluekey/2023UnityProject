@@ -500,6 +500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 613378408}
   MouseAim: {fileID: 1775344973}
+  Arrow: {fileID: 5711324744103392210, guid: 5cf005be2dbc0f34fb7ff10de7ad9d21, type: 3}
 --- !u!1 &1092759973
 GameObject:
   m_ObjectHideFlags: 0

@@ -69,4 +69,6 @@ public class ArrowControl : MonoBehaviour
         ArrowFire = false;
         ArrowRigidbody.velocity = Vector3.zero;
     }
+
+
 }

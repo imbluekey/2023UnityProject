@@ -7,7 +7,8 @@ public class BowControl : MonoBehaviour
 {
     public GameObject Player; //public variable that indicates the "Player" GameObject.
     public GameObject MouseAim; //Variable that indicates the "Aim" GameObject.
-    
+    public GameObject Arrow;
+
     private Vector3 playerPosition; 
     private Vector3 BowVector;
     private float BowAngle;
@@ -17,7 +18,9 @@ public class BowControl : MonoBehaviour
 
     void Start()
     {
+        Arrow.SetActive(false); // 처음에는 비활성화 시킴.
         BowAnimator = GetComponent<Animator>(); //애니메이션 컴포넌트를 가져온다. 
+        
     }
 
     /*
@@ -48,6 +51,7 @@ public class BowControl : MonoBehaviour
         {
             Debug.Log("화살 장전 시작");
             BowAnimator.SetBool("BowBend", true); // 활을 당기는 애니메이션 시작
+            
         }
         if (!Input.GetMouseButton(0)) 
         {

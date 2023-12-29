@@ -12,27 +12,11 @@ public class ArrowControl : MonoBehaviour
     private Quaternion ArrowRotation;
     private Vector3 ArrowVector;
 
-    private void DestroyArrow()
-    {
-        ArrowFire = false;
-        gameObject.SetActive(false);
-    }
-
-    public void setArrowDisapear(float disapearTime)
-    {
-        ArrowDisapear = disapearTime;
-    }
-
-    private void setRigidBodyVelocity(Vector3 velocity)
-    {
-        ArrowRigidbody.velocity = velocity;
-    }
+  
 
     public void ShootArrow(Vector3 Direction, Quaternion rotaion ,float speed)
     {
         Debug.Log("ArrowControl.cs : ShootArrow : Direction Vector value : " + Direction.x + ", " + Direction.y);
-        Debug.Log("ArrowControl : ShootArrow : 화살 벡터 : " + Direction.x + " / " + Direction.y);
-
         ArrowVector = Direction.normalized * speed;
         ArrowFire = true;
     }
@@ -48,27 +32,19 @@ public class ArrowControl : MonoBehaviour
     void Update()
     {
 
-        if (ArrowFire)
+        if (ArrowFire == true)
         {  
             Debug.Log("ArrowControl : Update : 화살 속도 : " + ArrowSpeed);
             Debug.Log("ArrowControl : Update : 화살 벡터 : " + ArrowVector.x +" / " + ArrowVector.y);
 
-            setRigidBodyVelocity(ArrowVector);
-            Invoke("DestroyArrow", ArrowDisapear);
-            //ArrowFire = false;
+            ArrowRigidbody.velocity = ArrowVector;
+            
+            
         }
         else
         {
             //setRigidBodyVelocity(Vector3.zero);
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("충돌 감지!");
-        ArrowFire = false;
-        ArrowRigidbody.velocity = Vector3.zero;
-    }
-
 
 }

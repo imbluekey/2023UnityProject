@@ -12,24 +12,24 @@ public class BowControl : MonoBehaviour
     private Vector3 playerPosition; 
     private Vector3 BowVector;
     private float BowAngle;
+    private Quaternion ArrowRotation;
+    private bool ArrowHolding;
+    private ArrowControl ArrowControler;
 
 
     private Animator BowAnimator;
 
     void Start()
     {
-        Arrow.SetActive(false); // ó������ ��Ȱ��ȭ ��Ŵ.
-        BowAnimator = GetComponent<Animator>(); //�ִϸ��̼� ������Ʈ�� �����´�. 
-        
+  
+        Arrow = Instantiate(Arrow);
+        Arrow.SetActive(false); 
+        BowAnimator = GetComponent<Animator>();
+        ArrowHolding = true;
+        ArrowControler = Arrow.GetComponent<ArrowControl>();
     }
 
-    //test 12/27
-
-    /*
-     * �� �ڵ忡���� ������Ʈ Ǯ�� Ŭ������ �̿��Ͽ� ȭ�� ������Ʈ�� deque�Ѵ��� ����ϰ�,
-     * ����ϰ� ���� enque�Ͽ� �ٽ� ��Ȱ��ȭ �Ѵ�. 
-     * deque -> Ȱ��ȭ -> ��� -> ��Ȱ��ȭ -> enque
-     */
+       
     void Update()
     {
 
@@ -47,12 +47,24 @@ public class BowControl : MonoBehaviour
         //Sets the rotation of "Bow" objects relative to "Player" and "Aim" object.
         gameObject.transform.position = playerPosition + BowVector*0.3f;
         //Sets the position of "Bow" objects relative to "Player" object.
-
-
-        if (Input.GetMouseButtonDown(0)) // ���콺 ��Ŭ�� ������
+        
+        
+        if(ArrowHolding == true)
         {
+            ArrowRotation = Quaternion.Euler(0, 0, BowAngle + 135);
+            Arrow.transform.rotation = ArrowRotation;
+            Arrow.transform.position = gameObject.transform.position;
+        }
+
+       
+        if (Input.GetMouseButtonDown(0)) 
+        {
+            ArrowHolding = true;
+            Arrow.SetActive(true);
             Debug.Log("ȭ�� ���� ����");
-            BowAnimator.SetBool("BowBend", true); // Ȱ�� ���� �ִϸ��̼� ����
+            BowAnimator.SetBool("BowBend", true); 
+
+
             
         }
         if (!Input.GetMouseButton(0)) 
@@ -61,10 +73,13 @@ public class BowControl : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
-            Debug.Log("Ȱ �߻�");
 
-            BowAnimator.SetBool("BowBend", false); // Ȱ�� ����
-            
+            Debug.Log("Ȱ �߻�");
+            ArrowHolding = false;
+            BowAnimator.SetBool("BowBend", false);
+            ArrowControler.ShootArrow(BowVector, ArrowRotation, 3.0f);
+
+
             {
                 Debug.Log("ArrowInstance is NULL!!!");
             }

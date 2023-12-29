@@ -21,12 +21,15 @@ public class BowControl : MonoBehaviour
 
     void Start()
     {
+  
         Arrow = Instantiate(Arrow);
         Arrow.SetActive(false); 
         BowAnimator = GetComponent<Animator>();
         ArrowHolding = true;
         ArrowControler = Arrow.GetComponent<ArrowControl>();
     }
+
+       
     void Update()
     {
 
@@ -53,12 +56,15 @@ public class BowControl : MonoBehaviour
             Arrow.transform.position = gameObject.transform.position;
         }
 
+       
         if (Input.GetMouseButtonDown(0)) 
         {
             ArrowHolding = true;
             Arrow.SetActive(true);
-            Debug.Log("È­»ì ÀåÀü ½ÃÀÛ");
+            Debug.Log("È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
             BowAnimator.SetBool("BowBend", true); 
+
+
             
         }
         if (!Input.GetMouseButton(0)) 
@@ -67,10 +73,12 @@ public class BowControl : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
-            Debug.Log("È° ¹ß»ç");
+
+            Debug.Log("È° ï¿½ß»ï¿½");
             ArrowHolding = false;
             BowAnimator.SetBool("BowBend", false);
             ArrowControler.ShootArrow(BowVector, ArrowRotation, 3.0f);
+
 
             {
                 Debug.Log("ArrowInstance is NULL!!!");

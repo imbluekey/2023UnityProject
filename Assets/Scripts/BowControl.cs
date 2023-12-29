@@ -12,22 +12,18 @@ public class BowControl : MonoBehaviour
     private Vector3 playerPosition; 
     private Vector3 BowVector;
     private float BowAngle;
+    private Quaternion ArrowRotation;
 
 
     private Animator BowAnimator;
 
     void Start()
     {
-        Arrow.SetActive(false); // 처음에는 비활성화 시킴.
-        BowAnimator = GetComponent<Animator>(); //애니메이션 컴포넌트를 가져온다. 
+        Arrow = Instantiate(Arrow);
+        Arrow.SetActive(false); 
+        BowAnimator = GetComponent<Animator>();
         
     }
-
-    /*
-     * 이 코드에서는 오브젝트 풀링 클래스를 이용하여 화살 오브젝트를 deque한다음 사용하고,
-     * 사용하고 나면 enque하여 다시 비활성화 한다. 
-     * deque -> 활성화 -> 사용 -> 비활성화 -> enque
-     */
     void Update()
     {
 
@@ -45,12 +41,18 @@ public class BowControl : MonoBehaviour
         //Sets the rotation of "Bow" objects relative to "Player" and "Aim" object.
         gameObject.transform.position = playerPosition + BowVector*0.3f;
         //Sets the position of "Bow" objects relative to "Player" object.
+        
+        
+        
+        ArrowRotation = Quaternion.Euler(0, 0, BowAngle + 135);
+        Arrow.transform.rotation = ArrowRotation;
+        Arrow.transform.position = gameObject.transform.position;
 
-
-        if (Input.GetMouseButtonDown(0)) // 마우스 좌클릭 했을때
+        if (Input.GetMouseButtonDown(0)) 
         {
+            Arrow.SetActive(true);
             Debug.Log("화살 장전 시작");
-            BowAnimator.SetBool("BowBend", true); // 활을 당기는 애니메이션 시작
+            BowAnimator.SetBool("BowBend", true); 
             
         }
         if (!Input.GetMouseButton(0)) 
@@ -61,7 +63,7 @@ public class BowControl : MonoBehaviour
         {
             Debug.Log("활 발사");
 
-            BowAnimator.SetBool("BowBend", false); // 활을 놓음
+            BowAnimator.SetBool("BowBend", false); 
             
             {
                 Debug.Log("ArrowInstance is NULL!!!");

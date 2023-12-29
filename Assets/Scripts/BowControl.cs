@@ -13,6 +13,8 @@ public class BowControl : MonoBehaviour
     private Vector3 BowVector;
     private float BowAngle;
     private Quaternion ArrowRotation;
+    private bool ArrowHolding;
+    private ArrowControl ArrowControler;
 
 
     private Animator BowAnimator;
@@ -22,7 +24,8 @@ public class BowControl : MonoBehaviour
         Arrow = Instantiate(Arrow);
         Arrow.SetActive(false); 
         BowAnimator = GetComponent<Animator>();
-        
+        ArrowHolding = true;
+        ArrowControler = Arrow.GetComponent<ArrowControl>();
     }
     void Update()
     {
@@ -43,13 +46,16 @@ public class BowControl : MonoBehaviour
         //Sets the position of "Bow" objects relative to "Player" object.
         
         
-        
-        ArrowRotation = Quaternion.Euler(0, 0, BowAngle + 135);
-        Arrow.transform.rotation = ArrowRotation;
-        Arrow.transform.position = gameObject.transform.position;
+        if(ArrowHolding == true)
+        {
+            ArrowRotation = Quaternion.Euler(0, 0, BowAngle + 135);
+            Arrow.transform.rotation = ArrowRotation;
+            Arrow.transform.position = gameObject.transform.position;
+        }
 
         if (Input.GetMouseButtonDown(0)) 
         {
+            ArrowHolding = true;
             Arrow.SetActive(true);
             Debug.Log("화살 장전 시작");
             BowAnimator.SetBool("BowBend", true); 
@@ -62,9 +68,10 @@ public class BowControl : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             Debug.Log("활 발사");
+            ArrowHolding = false;
+            BowAnimator.SetBool("BowBend", false);
+            ArrowControler.ShootArrow(BowVector, ArrowRotation, 3.0f);
 
-            BowAnimator.SetBool("BowBend", false); 
-            
             {
                 Debug.Log("ArrowInstance is NULL!!!");
             }

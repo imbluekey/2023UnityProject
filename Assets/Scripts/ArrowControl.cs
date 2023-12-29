@@ -32,7 +32,7 @@ public class ArrowControl : MonoBehaviour
     void Update()
     {
 
-        if (ArrowFire)
+        if (ArrowFire == true)
         {  
             Debug.Log("ArrowControl : Update : 화살 속도 : " + ArrowSpeed);
             Debug.Log("ArrowControl : Update : 화살 벡터 : " + ArrowVector.x +" / " + ArrowVector.y);

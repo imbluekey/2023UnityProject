@@ -22,7 +22,7 @@ public class BowControl : MonoBehaviour
         BowAnimator = GetComponent<Animator>(); //애니메이션 컴포넌트를 가져온다. 
         
     }
-    //test
+
     /*
      * 이 코드에서는 오브젝트 풀링 클래스를 이용하여 화살 오브젝트를 deque한다음 사용하고,
      * 사용하고 나면 enque하여 다시 비활성화 한다. 

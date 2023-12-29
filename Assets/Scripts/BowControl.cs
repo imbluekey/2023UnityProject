@@ -67,6 +67,7 @@ public class BowControl : MonoBehaviour
 
             
         }
+        //test
         if (!Input.GetMouseButton(0)) 
         {
 

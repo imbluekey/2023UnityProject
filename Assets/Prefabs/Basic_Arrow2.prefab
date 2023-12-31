@@ -59,14 +59,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1147715766923178395, guid: 1302e6600ce9fcd43bfeb61ba162d06d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 508344554708524804}
+      addedObject: {fileID: 4650941521126216535}
   m_SourcePrefab: {fileID: 100100000, guid: 1302e6600ce9fcd43bfeb61ba162d06d, type: 3}
 --- !u!1 &5711324744103392210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1147715766923178395, guid: 1302e6600ce9fcd43bfeb61ba162d06d, type: 3}
   m_PrefabInstance: {fileID: 4661000149881602633}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &508344554708524804
+--- !u!114 &4650941521126216535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,6 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096324eb286f64b4aafe74a722871996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ArrowDisappearTime: 5
   ArrowFire: 0
   ArrowDisapear: 5
-  ArrowSpeed: 3
+  ArrowSpeed: 4

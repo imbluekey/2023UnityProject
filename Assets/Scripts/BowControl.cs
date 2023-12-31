@@ -50,7 +50,7 @@ public class BowControl : MonoBehaviour
 
         
         
-        if(ArrowHolding == true)
+        if(ArrowHolding == true && Arrow != null)
         {
             ArrowRotation = Quaternion.Euler(0, 0, BowAngle + 135);
             Arrow.transform.rotation = ArrowRotation;
@@ -86,7 +86,7 @@ public class BowControl : MonoBehaviour
 
 
             {
-                Debug.Log("ArrowInstance is NULL!!!");
+                //Debug.Log("ArrowInstance is NULL!!!");
             }
         }
 

@@ -225,10 +225,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970ffce958d5f8e4ebfc99c0babffd53, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e538a2579bc3004da2608048ce3ed49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 613378408}
+  player: {fileID: 613378412}
+  smoothSpeed: 0.125
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &613378408
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,6 +392,7 @@ GameObject:
   - component: {fileID: 769875314}
   - component: {fileID: 769875313}
   - component: {fileID: 769875312}
+  - component: {fileID: 769875318}
   - component: {fileID: 769875317}
   m_Layer: 0
   m_Name: Bow
@@ -500,7 +503,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 613378408}
   MouseAim: {fileID: 1775344973}
-  Arrow: {fileID: 5711324744103392210, guid: 5cf005be2dbc0f34fb7ff10de7ad9d21, type: 3}
+  ArrowPool: {fileID: 769875318}
+--- !u!114 &769875318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769875311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b13e87d0a0d6d64fb04bec7bc313e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PoolingTarget: {fileID: 5711324744103392210, guid: 5cf005be2dbc0f34fb7ff10de7ad9d21, type: 3}
+  NumberOfPool: 300
 --- !u!1 &1092759973
 GameObject:
   m_ObjectHideFlags: 0

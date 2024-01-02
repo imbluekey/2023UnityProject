@@ -7,7 +7,6 @@ public class ArrowControl : MonoBehaviour
 
     public float ArrowDisappearTime = 5.0f;
     
-    private Transform   ArrowTransform;
     private Rigidbody2D ArrowRigidbody;
     public bool ArrowFire = false;
     public float ArrowDisapear = 5f; //Default time is 5 seconds.
@@ -32,7 +31,6 @@ public class ArrowControl : MonoBehaviour
 
     void Start()
     {
-        ArrowTransform = gameObject.GetComponent<Transform>();
         ArrowRigidbody = gameObject.GetComponent<Rigidbody2D>();
     }
 
@@ -62,6 +60,11 @@ public class ArrowControl : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     { //when the arrow collise with the objects....
         Debug.Log("Arrow collides with the objects . . . ");
-        ArrowCollides = true;
+        Debug.Log(collision.gameObject.name);
+        if(collision.gameObject.name != "BasicArrow(Clone)")
+        {
+            ArrowCollides = true;
+        
+        }
     }
 }

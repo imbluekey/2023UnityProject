@@ -50,13 +50,11 @@ public class PlayerMove : MonoBehaviour
             //Debug.Log("Player : GetKey > LEFT");
         }
 
-
-
-        //float xSpeed = xInput * playerSpeed;
-        //float ySpeed = yInput * playerSpeed;   
-        //대각선으로 가면 루트 2만큼 속도가 나오니, 이때는 속도를 1로 만들게 조정할것. 
+        
         Vector2 newVelocity = new Vector2(xInput, yInput); 
         // Makes the Vector2 Instance that contains the direction of Player 
+
+
         newVelocity = newVelocity.normalized * playerSpeed;
         //Debug.Log("Player : Vector2 size > " + newVelocity.magnitude);
         if(newVelocity.magnitude > 0f )

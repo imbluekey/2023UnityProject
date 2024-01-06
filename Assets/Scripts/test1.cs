@@ -7,7 +7,7 @@ public class test1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //bluekey working good?   
+        //bluekey working good? change?
     }
 
     // Update is called once per frame

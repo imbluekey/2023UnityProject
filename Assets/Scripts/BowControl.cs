@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -5,10 +6,12 @@ using UnityEngine;
 
 public class BowControl : MonoBehaviour
 {
+    
+
     public GameObject Player; //public variable that indicates the "Player" GameObject.
     public GameObject MouseAim; //Variable that indicates the "Aim" GameObject.
     public ObjectPooling ArrowPool;
-
+    public float ArrowSpeed = 5.0f;
 
     private GameObject Arrow;
     private Vector3 playerPosition; 
@@ -27,7 +30,7 @@ public class BowControl : MonoBehaviour
         //Arrow = Instantiate(Arrow);
         //Arrow.SetActive(false); 
         BowAnimator = GetComponent<Animator>();
-        ArrowHolding = true;
+        ArrowHolding = false;
     }
 
        
@@ -38,8 +41,6 @@ public class BowControl : MonoBehaviour
         playerPosition.y -= 0.1f;
         //Gets the position of Player GameObject. 
 
-
-
         //sets the Vector and Angle of the bow.
         BowVector = (MouseAim.transform.position - playerPosition).normalized; 
         BowAngle = Mathf.Atan2(BowVector.y, BowVector.x) * Mathf.Rad2Deg;
@@ -48,20 +49,11 @@ public class BowControl : MonoBehaviour
         gameObject.transform.position = playerPosition + BowVector*0.3f;
         //Sets the position of "Bow" objects relative to "Player" object.
 
-        
-        
-        if(ArrowHolding == true && Arrow != null)
-        {
-            ArrowRotation = Quaternion.Euler(0, 0, BowAngle + 135);
-            Arrow.transform.rotation = ArrowRotation;
-            Arrow.transform.position = gameObject.transform.position;
-        }
 
-       
-        if (Input.GetMouseButtonDown(0)) 
+
+        if (Input.GetMouseButtonDown(0) && ArrowHolding == false) 
         {
             ArrowHolding = true;
-
             //gets the Arrow object from the ArrowPool. Must be Activated manually.
             Arrow = ArrowPool.getFromPool();
             Arrow.SetActive(true);
@@ -72,22 +64,19 @@ public class BowControl : MonoBehaviour
 
             
         }
-        //test1234
-        if (!Input.GetMouseButton(0)) 
+        
+        if(ArrowHolding == true )
         {
-
+            ArrowRotation = Quaternion.Euler(0, 0, BowAngle + 135);
+            Arrow.transform.rotation = ArrowRotation;
+            Arrow.transform.position = gameObject.transform.position;
         }
-        if (Input.GetMouseButtonUp(0))
+
+        if (Input.GetMouseButtonUp(0) && ArrowHolding == true)
         {
-
-            ArrowHolding = false;
             BowAnimator.SetBool("BowBend", false);
-            ArrowControler.ShootArrow(BowVector, ArrowRotation, 3.0f);
-
-
-            {
-                //Debug.Log("ArrowInstance is NULL!!!");
-            }
+            ArrowControler.ShootArrow(BowVector, ArrowSpeed);
+            ArrowHolding = false;
         }
 
 

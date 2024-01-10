@@ -8,14 +8,25 @@ public class HpBar : MonoBehaviour
     //then each monster get their own hp bar prefeb(maybe)
     //so we can get each monster's hp stat..
     public Image HPImage;
-    public float maxhp;
-    public float nowhp;
+    private float maxhp;
+    private float nowhp;
+
+
+    public void setMaxHp(float hp)
+    {
+        maxhp = hp;
+        nowhp = hp;
+    }
+
+    public void decreaseHp(float damage)
+    {
+        Debug.Log("Decreasing HP of the target.");
+        nowhp -= damage;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        //it will be changed when monster object coded.
-        maxhp = 100;
-        nowhp = maxhp;
     }
 
     // Update is called once per frame
@@ -25,9 +36,5 @@ public class HpBar : MonoBehaviour
         // need object of monster or etc
         // we will show hpBar only if monster object Exist
         HPImage.fillAmount = (float)nowhp / (float)maxhp;
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            nowhp = nowhp - (float)10;
-        }
     }
 }

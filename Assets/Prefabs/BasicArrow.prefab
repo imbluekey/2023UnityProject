@@ -78,7 +78,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096324eb286f64b4aafe74a722871996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ArrowDisappearTime: 5
+  ArrowDisappearTime: 2
   ArrowFire: 0
-  ArrowDisapear: 5
-  ArrowSpeed: 4
+  ArrowSpeed: 10

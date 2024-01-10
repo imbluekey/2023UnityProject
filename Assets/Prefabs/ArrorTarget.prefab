@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2896967792643492888}
   - component: {fileID: 7002877911720582453}
   - component: {fileID: 8125846755496670791}
+  - component: {fileID: -8859040032140760484}
   m_Layer: 0
   m_Name: ArrorTarget
   m_TagString: Untagged
@@ -148,3 +149,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.8, y: 0.1}
   m_Direction: 1
+--- !u!114 &-8859040032140760484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536982372748770224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba08166a09ef76d459d6a1b93e934d91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

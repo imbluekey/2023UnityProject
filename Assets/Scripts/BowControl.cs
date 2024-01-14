@@ -88,14 +88,11 @@ public class BowControl : MonoBehaviour
 
     }
 
-    void onBowFullCharge(float ArrowSpeedWeight, int AnimationIndex)
+    void onBowFullCharge(float ArrowSpeedWeight)
     {
         //Debug.Log("Bow Animator is at state of Full Charge! | Arrow Speed Weight is " + ArrowSpeedWeight);
         ArrowSpeed += ArrowSpeedWeight/7;
-        if(AnimationIndex >= 9)
-        {
-            Debug.Log("Perfect shot detected");
-        }
+        
         
     }
 

@@ -49,7 +49,7 @@ public class BowControl : MonoBehaviour
 
 
 
-        if (Input.GetMouseButtonDown(0) && ArrowHolding == false) 
+        if (Input.GetMouseButtonDown(1) && ArrowHolding == false) 
         {
             ArrowHolding = true;
             //gets the Arrow object from the ArrowPool. Must be Activated manually.
@@ -68,9 +68,16 @@ public class BowControl : MonoBehaviour
             ArrowRotation = Quaternion.Euler(0, 0, BowAngle + 135);
             Arrow.transform.rotation = ArrowRotation;
             Arrow.transform.position = gameObject.transform.position;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                BowAnimator.SetBool("BowBend", false);
+                Arrow.SetActive(false);
+                ArrowHolding = false;
+                ArrowSpeed = 0;
+            }
         }
 
-        if (Input.GetMouseButtonUp(0) && ArrowHolding == true)
+        if (Input.GetMouseButtonUp(1) && ArrowHolding == true)
         {
             BowAnimator.SetBool("BowBend", false);
             ArrowControler.ShootArrow(BowVector, ArrowSpeed);

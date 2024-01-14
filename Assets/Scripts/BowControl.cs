@@ -2,17 +2,18 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BowControl : MonoBehaviour
 {
-    
-
     public GameObject Player; //public variable that indicates the "Player" GameObject.
     public GameObject MouseAim; //Variable that indicates the "Aim" GameObject.
     public ObjectPooling ArrowPool;
     public float ArrowSpeed = 5.0f;
+    public Animator BowAnimator;
 
+    private float originalArrowSpeed;
     private GameObject Arrow;
     private Vector3 playerPosition; 
     private Vector3 BowVector;
@@ -21,21 +22,18 @@ public class BowControl : MonoBehaviour
     private bool ArrowHolding;
     private ArrowControl ArrowControler;
 
-
-    private Animator BowAnimator;
-
     void Start()
     {
         ArrowPool = gameObject.GetComponent<ObjectPooling>();
-        //Arrow = Instantiate(Arrow);
-        //Arrow.SetActive(false); 
-        BowAnimator = GetComponent<Animator>();
         ArrowHolding = false;
+        originalArrowSpeed = ArrowSpeed;
+        Debug.Log("Original Arrow Speed : " + originalArrowSpeed);
     }
 
        
     void Update()
     {
+
 
         playerPosition = Player.transform.position;
         playerPosition.y -= 0.1f;
@@ -77,8 +75,16 @@ public class BowControl : MonoBehaviour
             BowAnimator.SetBool("BowBend", false);
             ArrowControler.ShootArrow(BowVector, ArrowSpeed);
             ArrowHolding = false;
+            ArrowSpeed = originalArrowSpeed;
         }
 
 
+    }
+
+    void onBowFullCharge(float ArrowSpeedWeight)
+    {
+        Debug.Log("Bow Animator is at state of Full Charge! | Arrow Speed Weight is " + ArrowSpeedWeight);
+        ArrowSpeed += ArrowSpeedWeight/7;
+        
     }
 }

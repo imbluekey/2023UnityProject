@@ -99,4 +99,88 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 1
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.083333336
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 1.5
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.16666667
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 2
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.25
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 2.5
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 3
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 3.5
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 4.5
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5833333
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 5
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 7
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.75
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 8
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.8333333
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 9
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.9166667
+    functionName: onBowFullCharge
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 10
+    intParameter: 0
+    messageOptions: 0

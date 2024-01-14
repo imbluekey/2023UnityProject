@@ -12,8 +12,6 @@ public class BowControl : MonoBehaviour
     public ObjectPooling ArrowPool;
     public float ArrowSpeed = 5.0f;
     public Animator BowAnimator;
-    public GameObject PerfectShotEffect;
-    private Animator PerfectShotAnim;
 
     private float originalArrowSpeed;
     private GameObject Arrow;
@@ -30,7 +28,6 @@ public class BowControl : MonoBehaviour
         ArrowHolding = false;
         originalArrowSpeed = ArrowSpeed;
         Debug.Log("Original Arrow Speed : " + originalArrowSpeed);
-        PerfectShotAnim = PerfectShotEffect.GetComponent<Animator>();
     }
 
        
@@ -98,7 +95,6 @@ public class BowControl : MonoBehaviour
         if(AnimationIndex >= 9)
         {
             Debug.Log("Perfect shot detected");
-            //PerfectShotAnim.SetBool("PerfectTrue", true);
         }
         
     }

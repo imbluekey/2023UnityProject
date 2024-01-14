@@ -90,8 +90,10 @@ public class BowControl : MonoBehaviour
 
     void onBowFullCharge(float ArrowSpeedWeight)
     {
-        Debug.Log("Bow Animator is at state of Full Charge! | Arrow Speed Weight is " + ArrowSpeedWeight);
+        //Debug.Log("Bow Animator is at state of Full Charge! | Arrow Speed Weight is " + ArrowSpeedWeight);
         ArrowSpeed += ArrowSpeedWeight/7;
         
     }
+
+
 }

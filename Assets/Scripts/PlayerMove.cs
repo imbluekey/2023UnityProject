@@ -76,7 +76,7 @@ public class PlayerMove : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     { //when the arrow collise with the objects....
         Debug.Log("충돌 발생!");
-        playerRigidbody.velocity = Vector2.zero;
+        
     }
     
 

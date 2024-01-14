@@ -9,20 +9,18 @@ public class ArrowControl : MonoBehaviour
     
     private Rigidbody2D ArrowRigidbody;
     public bool ArrowFire = false;
-    public float ArrowDisapear = 5f; //Default time is 5 seconds.
-    public float ArrowSpeed = 3f; //Speed of Arrow. Default value is 3f.
-    private Quaternion ArrowRotation;
     private Vector3 ArrowVector;
     private bool ArrowCollides = false;
 
 
     private void UnactivateArrow()
     {
-        gameObject.SetActive(false); 
-        gameObject.transform.position = Vector3.zero;
+        gameObject.SetActive(false);
+        //gameObject.transform.position = Vector3.zero;
+        
     }
 
-    public void ShootArrow(Vector3 Direction, Quaternion rotaion ,float speed)
+    public void ShootArrow(Vector3 Direction ,float speed)
     {
         //Debug.Log("ArrowControl.cs : ShootArrow : Direction Vector value : " + Direction.x + ", " + Direction.y);
         ArrowVector = Direction.normalized * speed;
@@ -41,7 +39,7 @@ public class ArrowControl : MonoBehaviour
         if(ArrowCollides == true)
         {
             ArrowRigidbody.velocity = Vector3.zero;
-
+            ArrowCollides = false;
         }
         else if (ArrowFire == true)
         {
@@ -49,18 +47,16 @@ public class ArrowControl : MonoBehaviour
             //Debug.Log("ArrowControl : Update : »≠ªÏ ∫§≈Õ : " + ArrowVector.x + " / " + ArrowVector.y);
             ArrowRigidbody.velocity = ArrowVector;
             Invoke("UnactivateArrow", ArrowDisappearTime);
+            ArrowFire = false;
             
         }
-        else
-        {
-            //setRigidBodyVelocity(Vector3.zero);
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     { //when the arrow collise with the objects....
-        Debug.Log("Arrow collides with the objects . . . ");
-        Debug.Log(collision.gameObject.name);
+        //Debug.Log("Arrow collides with the objects . . . ");
+        //Debug.Log(collision.gameObject.name);
         if(collision.gameObject.name != "BasicArrow(Clone)")
         {
             ArrowCollides = true;

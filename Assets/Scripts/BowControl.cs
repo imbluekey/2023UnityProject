@@ -12,6 +12,8 @@ public class BowControl : MonoBehaviour
     public ObjectPooling ArrowPool;
     public float ArrowSpeed = 5.0f;
     public Animator BowAnimator;
+    public GameObject PerfectShotEffect;
+    private Animator PerfectShotAnim;
 
     private float originalArrowSpeed;
     private GameObject Arrow;
@@ -28,6 +30,7 @@ public class BowControl : MonoBehaviour
         ArrowHolding = false;
         originalArrowSpeed = ArrowSpeed;
         Debug.Log("Original Arrow Speed : " + originalArrowSpeed);
+        PerfectShotAnim = PerfectShotEffect.GetComponent<Animator>();
     }
 
        
@@ -88,10 +91,15 @@ public class BowControl : MonoBehaviour
 
     }
 
-    void onBowFullCharge(float ArrowSpeedWeight)
+    void onBowFullCharge(float ArrowSpeedWeight, int AnimationIndex)
     {
         //Debug.Log("Bow Animator is at state of Full Charge! | Arrow Speed Weight is " + ArrowSpeedWeight);
         ArrowSpeed += ArrowSpeedWeight/7;
+        if(AnimationIndex >= 9)
+        {
+            Debug.Log("Perfect shot detected");
+            //PerfectShotAnim.SetBool("PerfectTrue", true);
+        }
         
     }
 

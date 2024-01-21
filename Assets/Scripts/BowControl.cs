@@ -9,6 +9,7 @@ public class BowControl : MonoBehaviour
 {
     public GameObject Player; //public variable that indicates the "Player" GameObject.
     public GameObject MouseAim; //Variable that indicates the "Aim" GameObject.
+    public GameObject PerfectShotAnimation; //Animation Object of Perfect shot.
     public ObjectPooling ArrowPool;
     public float ArrowSpeed = 5.0f;
     public Animator BowAnimator;
@@ -21,6 +22,11 @@ public class BowControl : MonoBehaviour
     private Quaternion ArrowRotation;
     private bool ArrowHolding;
     private ArrowControl ArrowControler;
+
+    public void PlayAnimation()
+    {
+        PerfectShotAnimation.GetComponent<PerfectShotEffectController>().PlayAnimation();
+    }
 
     void Start()
     {

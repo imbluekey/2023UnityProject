@@ -153,28 +153,35 @@ AnimationClip:
     functionName: onBowFullCharge
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 5
+    floatParameter: 5.5
     intParameter: 7
     messageOptions: 0
   - time: 0.6666667
     functionName: onBowFullCharge
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 7
+    floatParameter: 6.5
     intParameter: 8
     messageOptions: 0
   - time: 0.75
     functionName: onBowFullCharge
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 8
+    floatParameter: 7.5
     intParameter: 9
+    messageOptions: 0
+  - time: 0.75
+    functionName: PlayAnimation
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 0.8333333
     functionName: onBowFullCharge
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 9
+    floatParameter: 8.5
     intParameter: 10
     messageOptions: 0
   - time: 0.9166667

@@ -445,6 +445,10 @@ PrefabInstance:
       propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7260034511316701078, guid: 854b537db3610d64cb1a47ecd476d1a5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1581187361, guid: 91f90f57d100ff9459d9f6641974594e, type: 3}
     m_RemovedComponents:
     - {fileID: 5330736046568139218, guid: 854b537db3610d64cb1a47ecd476d1a5, type: 3}
     m_RemovedGameObjects: []

@@ -11,6 +11,7 @@ public class ArrowControl : MonoBehaviour
     public bool ArrowFire = false;
     private Vector3 ArrowVector;
     private bool ArrowCollides = false;
+    private bool giveDamage = true;
 
 
     private void UnactivateArrow()
@@ -55,12 +56,12 @@ public class ArrowControl : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     { //when the arrow collise with the objects....
-        //Debug.Log("Arrow collides with the objects . . . ");
-        //Debug.Log(collision.gameObject.name);
-        if(collision.gameObject.name != "BasicArrow(Clone)")
+        Debug.Log("Arrow collides with the objects . . . ");
+        Debug.Log("collision object name : " + collision.gameObject.name);
+        string collisionObject = collision.gameObject.name;
+        if (collisionObject != "BasicArrow(Clone)" && !ObjectNameDetection.HasString(collisionObject, "RigidBody"))
         {
             ArrowCollides = true;
-        
         }
     }
 }

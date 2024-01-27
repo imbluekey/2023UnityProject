@@ -3310,6 +3310,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 421026282019191529, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
+      propertyPath: m_Name
+      value: SlimeBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 567141461643641611, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
+      propertyPath: m_Name
+      value: HpBar
+      objectReference: {fileID: 0}
     - target: {fileID: 663405212486112890, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
       propertyPath: m_Name
       value: Slime
@@ -3332,11 +3340,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1165510207080954499, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.17
+      value: 6.72
       objectReference: {fileID: 0}
     - target: {fileID: 1165510207080954499, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5899999
+      value: 3.71
       objectReference: {fileID: 0}
     - target: {fileID: 1165510207080954499, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3378,6 +3386,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 712345489
       objectReference: {fileID: 0}
+    - target: {fileID: 2475490891113457530, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
+      propertyPath: m_Name
+      value: SlimeInspector
+      objectReference: {fileID: 0}
+    - target: {fileID: 2981488634358643013, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
+      propertyPath: m_Name
+      value: HpBarBackground
+      objectReference: {fileID: 0}
     - target: {fileID: 4261378760666572730, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.25
@@ -3389,6 +3405,10 @@ PrefabInstance:
     - target: {fileID: 8510305469981936299, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850215361475724794, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
+      propertyPath: m_Name
+      value: SlimeRigidBody
       objectReference: {fileID: 0}
     - target: {fileID: 8850215361475724794, guid: 32b8eb1cb5f290142b69a9586aa6b0f4, type: 3}
       propertyPath: m_Layer

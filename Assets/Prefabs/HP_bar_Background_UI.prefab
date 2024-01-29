@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 6872692755044770287}
   - component: {fileID: 537039458191274075}
   m_Layer: 6
-  m_Name: Background
+  m_Name: HP_bar_Background_UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

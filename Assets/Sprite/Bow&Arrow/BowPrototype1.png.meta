@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a53f53fbf4b84af418962b7f989e3768
+guid: e73caaac9f6509346b5dd92519ec50ae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 8
@@ -110,11 +110,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_0
+      name: BowPrototype1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 0
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -124,18 +124,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3095511360eb8ee459250431aa2ce8ee
-      internalID: 116471410
+      spriteID: 431cd335b0887e64aac30f65a8843210
+      internalID: -1115133121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_1
+      name: BowPrototype1_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
+        x: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -145,18 +145,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7052928442577c9439f71a44ef3ce73e
-      internalID: 237056670
+      spriteID: 54549402d1dda94429aeccdde9f42778
+      internalID: 1962781816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_2
+      name: BowPrototype1_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
+        x: 64
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -166,18 +166,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e60d41bc139944d4485c426f6d8ae125
-      internalID: 697157669
+      spriteID: 6dec3146d59276b4186777360087e2f7
+      internalID: 285825646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_3
+      name: BowPrototype1_3
       rect:
         serializedVersion: 2
-        x: 97
-        y: 1
+        x: 96
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -187,18 +187,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39c969e139badd54ebf91b462c5ca0b7
-      internalID: -2047430048
+      spriteID: 343288447861efe479da0fa28adc6740
+      internalID: -1636284381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_4
+      name: BowPrototype1_4
       rect:
         serializedVersion: 2
-        x: 129
-        y: 1
+        x: 128
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -208,18 +208,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f245058d8fb47c468747d6f66abc86c
-      internalID: -119054300
+      spriteID: 1ef312d2c3247ed4e951e809bb838a37
+      internalID: 980360092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_5
+      name: BowPrototype1_5
       rect:
         serializedVersion: 2
-        x: 161
-        y: 1
+        x: 160
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -229,18 +229,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bdf226c13562a64ba02961589e805f1
-      internalID: -1826654640
+      spriteID: 6e2c6c4c030c0564f8708e893bc7a5d4
+      internalID: 540441798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_6
+      name: BowPrototype1_6
       rect:
         serializedVersion: 2
-        x: 193
-        y: 1
+        x: 192
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -250,18 +250,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e748b866aa44dd84a97eb50bde31a689
-      internalID: 1477199075
+      spriteID: 34f6bef221526a94eb0a227050f4d695
+      internalID: 1421848454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_7
+      name: BowPrototype1_7
       rect:
         serializedVersion: 2
-        x: 225
-        y: 1
+        x: 224
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -271,18 +271,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce7b537ea23156540aee15636a5cc37b
-      internalID: -1059454272
+      spriteID: f3b78aef46d2670428adb6f44abf921f
+      internalID: -1852252431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_8
+      name: BowPrototype1_8
       rect:
         serializedVersion: 2
-        x: 257
-        y: 1
+        x: 256
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -292,18 +292,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aaac4669f8476a459c3295315158189
-      internalID: -467830567
+      spriteID: 3aae03448083a3d4db6a76be8dde127c
+      internalID: -24988034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_9
+      name: BowPrototype1_9
       rect:
         serializedVersion: 2
-        x: 289
-        y: 1
+        x: 288
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -313,18 +313,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d1d8d190a3e02419d49ad8adebfb09
-      internalID: -571156640
+      spriteID: 4b48c9037f1e61a44a205204a172657c
+      internalID: 1970337261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_10
+      name: BowPrototype1_10
       rect:
         serializedVersion: 2
-        x: 321
-        y: 1
+        x: 320
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -334,18 +334,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13b5c78fce381e34794fe9d746176eee
-      internalID: -232593114
+      spriteID: a500e2fe2e427134995168a0a3fc5c28
+      internalID: -1075654737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_11
+      name: BowPrototype1_11
       rect:
         serializedVersion: 2
-        x: 353
-        y: 1
+        x: 352
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -355,18 +355,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d13e9d204fde39f4f9a9fa4841b933c7
-      internalID: -1753464534
+      spriteID: c7b88884751d91d459f4aab03a7f16f4
+      internalID: 944022881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_12
+      name: BowPrototype1_12
       rect:
         serializedVersion: 2
-        x: 385
-        y: 1
+        x: 384
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -376,50 +376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d8c9ec2406d494469eb0dc59c3a5c25
-      internalID: 1655022200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6eb75afa98b8f244900d3beb28cd777
-      internalID: -1574279402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PerfectShot_Effect_Test-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 1
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7914b10b297b7bc4e8025f0b9a2960f4
-      internalID: 992958790
+      spriteID: bcf097c6a8af692499dd2bf49cb56222
+      internalID: -1366126223
       vertices: []
       indices: 
       edges: []
@@ -435,21 +393,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PerfectShot_Effect_Test-Sheet_0: 116471410
-      PerfectShot_Effect_Test-Sheet_1: 237056670
-      PerfectShot_Effect_Test-Sheet_10: -232593114
-      PerfectShot_Effect_Test-Sheet_11: -1753464534
-      PerfectShot_Effect_Test-Sheet_12: 1655022200
-      PerfectShot_Effect_Test-Sheet_13: -1574279402
-      PerfectShot_Effect_Test-Sheet_14: 992958790
-      PerfectShot_Effect_Test-Sheet_2: 697157669
-      PerfectShot_Effect_Test-Sheet_3: -2047430048
-      PerfectShot_Effect_Test-Sheet_4: -119054300
-      PerfectShot_Effect_Test-Sheet_5: -1826654640
-      PerfectShot_Effect_Test-Sheet_6: 1477199075
-      PerfectShot_Effect_Test-Sheet_7: -1059454272
-      PerfectShot_Effect_Test-Sheet_8: -467830567
-      PerfectShot_Effect_Test-Sheet_9: -571156640
+      BowPrototype1_0: -1115133121
+      BowPrototype1_1: 1962781816
+      BowPrototype1_10: -1075654737
+      BowPrototype1_11: 944022881
+      BowPrototype1_12: -1366126223
+      BowPrototype1_2: 285825646
+      BowPrototype1_3: -1636284381
+      BowPrototype1_4: 980360092
+      BowPrototype1_5: 540441798
+      BowPrototype1_6: 1421848454
+      BowPrototype1_7: -1852252431
+      BowPrototype1_8: -24988034
+      BowPrototype1_9: 1970337261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

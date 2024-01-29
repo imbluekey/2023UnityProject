@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1535488338214767252}
   - component: {fileID: 5956698348186526491}
   - component: {fileID: 4241697899566859912}
-  - component: {fileID: 1572695105679542707}
+  - component: {fileID: 2003057096637534155}
   m_Layer: 0
   m_Name: Basic_Arrow
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1917558865
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: efa6b323335daad439308d976df32059, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -149,7 +149,7 @@ CircleCollider2D:
   m_Offset: {x: -0.3, y: -0.3}
   serializedVersion: 2
   m_Radius: 0.13
---- !u!114 &1572695105679542707
+--- !u!114 &2003057096637534155
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,9 +158,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1147715766923178395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373949dd81dae7c4da41c9474708991a, type: 3}
+  m_Script: {fileID: 11500000, guid: 096324eb286f64b4aafe74a722871996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ArrowDisappearTime: 5
   ArrowFire: 0
-  ArrowDisapear: 5
-  ArrowSpeed: 10

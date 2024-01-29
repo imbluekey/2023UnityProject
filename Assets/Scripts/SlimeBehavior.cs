@@ -83,7 +83,6 @@ public class SlimeBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     { //when the arrow collise with the objects....
-        Debug.Log("ArrowTarget collides with the objects . . . ");
         Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "BasicArrow(Clone)")
         {

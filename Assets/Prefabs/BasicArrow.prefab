@@ -12,6 +12,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasicArrow
       objectReference: {fileID: 0}
+    - target: {fileID: 4241697899566859912, guid: 1302e6600ce9fcd43bfeb61ba162d06d, type: 3}
+      propertyPath: m_Radius
+      value: 0.34960827
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241697899566859912, guid: 1302e6600ce9fcd43bfeb61ba162d06d, type: 3}
+      propertyPath: m_Offset.x
+      value: -1.322308
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241697899566859912, guid: 1302e6600ce9fcd43bfeb61ba162d06d, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.3271668
+      objectReference: {fileID: 0}
     - target: {fileID: 5898618332029886446, guid: 1302e6600ce9fcd43bfeb61ba162d06d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.52431965

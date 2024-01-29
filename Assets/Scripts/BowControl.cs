@@ -11,7 +11,7 @@ public class BowControl : MonoBehaviour
     public GameObject MouseAim; //Variable that indicates the "Aim" GameObject.
     public GameObject PerfectShotAnimation; //Animation Object of Perfect shot.
     public ObjectPooling ArrowPool;
-    public float ArrowSpeed = 5.0f;
+    public float ArrowSpeed;
     public Animator BowAnimator;
 
     private float originalArrowSpeed;
@@ -97,7 +97,7 @@ public class BowControl : MonoBehaviour
     void onBowFullCharge(float ArrowSpeedWeight)
     {
         //Debug.Log("Bow Animator is at state of Full Charge! | Arrow Speed Weight is " + ArrowSpeedWeight);
-        ArrowSpeed += ArrowSpeedWeight/7;
+        ArrowSpeed += ArrowSpeedWeight/2;
         
         
     }

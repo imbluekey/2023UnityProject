@@ -11,12 +11,13 @@ public class ArrowControl : MonoBehaviour
     public bool ArrowFire = false;
     private Vector3 ArrowVector;
     private bool ArrowCollides = false;
-    private bool giveDamage = true;
+    private bool giveDamage;
 
 
     private void UnactivateArrow()
     {
         gameObject.SetActive(false);
+        giveDamage = false;
         //gameObject.transform.position = Vector3.zero;
         
     }
@@ -31,6 +32,7 @@ public class ArrowControl : MonoBehaviour
     void Start()
     {
         ArrowRigidbody = gameObject.GetComponent<Rigidbody2D>();
+        giveDamage = true;
     }
 
  
@@ -41,6 +43,7 @@ public class ArrowControl : MonoBehaviour
         {
             ArrowRigidbody.velocity = Vector3.zero;
             ArrowCollides = false;
+            giveDamage = false;
         }
         else if (ArrowFire == true)
         {
@@ -49,9 +52,7 @@ public class ArrowControl : MonoBehaviour
             ArrowRigidbody.velocity = ArrowVector;
             Invoke("UnactivateArrow", ArrowDisappearTime);
             ArrowFire = false;
-            
         }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

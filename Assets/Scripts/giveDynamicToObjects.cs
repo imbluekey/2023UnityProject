@@ -5,14 +5,20 @@ using UnityEngine;
 public class giveDynamicToObjects : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
+    private Vector3 ObjectBottomPoint;
+    private Vector3 ObjectsBoundsDistance;
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        ObjectsBoundsDistance = new Vector3(0f, spriteRenderer.bounds.extents.y, 0f);
+        //Debug.Log("Object Bounds Extents Distance : " + ObjectsBoundsDistance);
     }
 
     void Update()
     {
-        spriteRenderer.sortingOrder = Mathf.CeilToInt(gameObject.transform.position.y)*-1;
-        
+        ObjectBottomPoint = gameObject.transform.position - ObjectsBoundsDistance;
+        Debug.Log("Bound bottom coordinate : " + ObjectBottomPoint);
+        spriteRenderer.sortingOrder = Mathf.FloorToInt(ObjectBottomPoint.y) * -1;
+
     }
 }

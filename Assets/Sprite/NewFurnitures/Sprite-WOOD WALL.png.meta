@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bebebe7e249c36540aac36110a3858ec
+guid: 814e5bfdf90018745b4e115387e6fbeb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -107,11 +107,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -120,11 +120,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,102 +136,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-BOOK SHELF Light Color_0
+      name: Sprite-WOOD WALL_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
+        x: 0
+        y: 288
         width: 32
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -10.261295, y: -19}
-        - {x: -16, y: -19}
-        - {x: -16, y: -32}
-        - {x: 16, y: -32}
-        - {x: 16, y: -19}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b551ac278d71d6d40b3930270e24f8d4
-      internalID: -1801324977
+      spriteID: 655de7bcf502f6144a6cb6702eaa5f94
+      internalID: 1064013431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-BOOK SHELF Light Color_1
+      name: Sprite-WOOD WALL_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 160
+        y: 288
         width: 32
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: -19}
-        - {x: -16, y: -32}
-        - {x: 16, y: -32}
-        - {x: 16, y: -19}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4be243822df1bfe49be7d07e230dda3b
-      internalID: -289125975
+      spriteID: a46f536687dc979419c0775fbb70c6b2
+      internalID: -1923148100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-BOOK SHELF Light Color_2
+      name: Sprite-WOOD WALL_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 64
+        y: 288
         width: 32
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: -19}
-        - {x: -16, y: -32}
-        - {x: 16, y: -32}
-        - {x: 16, y: -19}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58ece9ebeed5e6443b78822a1937392f
-      internalID: 2110753281
+      spriteID: c1e620098cb27ee469f8845c6c934f42
+      internalID: 1370191388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-BOOK SHELF Light Color_3
+      name: Sprite-WOOD WALL_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41984ec01445024a9921372be491181
+      internalID: -1935608738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD WALL_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad58244c7fa68c4a8d34128f8457abc
+      internalID: 845479501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD WALL_5
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 256
         width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf5d6df14b99094db35f0ae4b1a23e2
+      internalID: 1905551788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD WALL_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173d6be1c4ca43c48a47faff69bc3620
+      internalID: -1523031161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD WALL_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae7b40c9ccfc0e498ac5a35ffd6f204
+      internalID: 1476824271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD WALL_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 160
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb06a8d47d507245a12ef79db6bb182
+      internalID: -1024370587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD WALL_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 160
         height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: -19}
-        - {x: -16, y: -32}
-        - {x: 16, y: -32}
-        - {x: 16, y: -19}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4220c9ca5617424c924cc6b629c1203
-      internalID: 665454563
+      spriteID: 59fe67901ec7d4548b6d786a3ab1aaad
+      internalID: 1321975115
       vertices: []
       indices: 
       edges: []
@@ -247,10 +356,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite-BOOK SHELF Light Color_0: -1801324977
-      Sprite-BOOK SHELF Light Color_1: -289125975
-      Sprite-BOOK SHELF Light Color_2: 2110753281
-      Sprite-BOOK SHELF Light Color_3: 665454563
+      Sprite-WOOD WALL_0: 1064013431
+      Sprite-WOOD WALL_1: -1923148100
+      Sprite-WOOD WALL_2: 1370191388
+      Sprite-WOOD WALL_3: -1935608738
+      Sprite-WOOD WALL_4: 845479501
+      Sprite-WOOD WALL_5: 1905551788
+      Sprite-WOOD WALL_6: -1523031161
+      Sprite-WOOD WALL_7: 1476824271
+      Sprite-WOOD WALL_8: -1024370587
+      Sprite-WOOD WALL_9: 1321975115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

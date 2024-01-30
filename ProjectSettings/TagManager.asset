@@ -44,17 +44,8 @@ TagManager:
   - name: Ground
     uniqueID: 445798083
     locked: 0
-  - name: Wall
-    uniqueID: 605568979
-    locked: 0
   - name: Objects
     uniqueID: 712345489
-    locked: 0
-  - name: Player
-    uniqueID: 4176379981
-    locked: 0
-  - name: Player_Objects_Equipments
-    uniqueID: 2377408431
     locked: 0
   - name: UI
     uniqueID: 2286600773

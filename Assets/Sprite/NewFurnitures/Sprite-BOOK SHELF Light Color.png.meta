@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 97b5651322a058949a87d808e04b14df
+guid: bebebe7e249c36540aac36110a3858ec
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 8
@@ -106,135 +106,131 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-WOOD FLOOR3 16x16_0
+      name: Sprite-BOOK SHELF Light Color_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 32
         y: 224
         width: 32
-        height: 32
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -16, y: -18}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: -18}
       tessellationDetail: 0
       bones: []
-      spriteID: 92e60bc01b158104f9252e766d8f58bf
-      internalID: -1974034023
+      spriteID: b551ac278d71d6d40b3930270e24f8d4
+      internalID: -1801324977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-WOOD FLOOR3 16x16_1
+      name: Sprite-BOOK SHELF Light Color_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
+        x: 32
+        y: 160
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -18}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: -18}
       tessellationDetail: 0
       bones: []
-      spriteID: e52913898fa24bf459f516fda20cbb62
-      internalID: 853807037
+      spriteID: 4be243822df1bfe49be7d07e230dda3b
+      internalID: -289125975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-WOOD FLOOR3 16x16_2
+      name: Sprite-BOOK SHELF Light Color_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 176
+        x: 32
+        y: 96
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -18}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: -18}
       tessellationDetail: 0
       bones: []
-      spriteID: 307f6327d889ca143a9fc41df1be684d
-      internalID: 49295890
+      spriteID: 58ece9ebeed5e6443b78822a1937392f
+      internalID: 2110753281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-WOOD FLOOR3 16x16_3
+      name: Sprite-BOOK SHELF Light Color_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 176
+        x: 32
+        y: 32
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -18}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: -18}
       tessellationDetail: 0
       bones: []
-      spriteID: 4289084f76740bd4eb1a7df619f622ee
-      internalID: -711580668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-WOOD FLOOR3 16x16_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ecaa139c23903d468c9d98d2d23882b
-      internalID: 2080793371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-WOOD FLOOR3 16x16_5
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7334ce944980979458c1c4a08ed3fd06
-      internalID: -1418440778
+      spriteID: f4220c9ca5617424c924cc6b629c1203
+      internalID: 665454563
       vertices: []
       indices: 
       edges: []
@@ -250,12 +246,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite-WOOD FLOOR3 16x16_0: -1974034023
-      Sprite-WOOD FLOOR3 16x16_1: 853807037
-      Sprite-WOOD FLOOR3 16x16_2: 49295890
-      Sprite-WOOD FLOOR3 16x16_3: -711580668
-      Sprite-WOOD FLOOR3 16x16_4: 2080793371
-      Sprite-WOOD FLOOR3 16x16_5: -1418440778
+      Sprite-BOOK SHELF Light Color_0: -1801324977
+      Sprite-BOOK SHELF Light Color_1: -289125975
+      Sprite-BOOK SHELF Light Color_2: 2110753281
+      Sprite-BOOK SHELF Light Color_3: 665454563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

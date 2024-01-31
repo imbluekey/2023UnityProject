@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SlimeBehavior : MonoBehaviour
 {
-    private Rigidbody2D mobRigidbody;
+    public Rigidbody2D mobRigidbody;
     private SpriteRenderer mobSprite;
     private Animator mobAnimator;
     public Transform player;
@@ -35,7 +35,6 @@ public class SlimeBehavior : MonoBehaviour
 
     void Start()
     {
-        mobRigidbody = GetComponentInChildren<Rigidbody2D>();
         mobSprite = GetComponent<SpriteRenderer>();
         mobAnimator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;

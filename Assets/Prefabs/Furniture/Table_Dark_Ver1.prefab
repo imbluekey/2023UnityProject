@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6350563197188969625
+--- !u!1 &7896368559628650240
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5740019499625582149}
-  - component: {fileID: 8887709922273854522}
-  - component: {fileID: 5030989889077676543}
-  - component: {fileID: 6337094495629133774}
-  - component: {fileID: 1748192650221121653}
+  - component: {fileID: 670053322928666079}
+  - component: {fileID: 3757441692013665868}
+  - component: {fileID: 5303507777159993752}
+  - component: {fileID: 9076793489171843994}
+  - component: {fileID: 7130833210347909785}
   m_Layer: 0
-  m_Name: BOOK SHELF_ver2_3
+  m_Name: Table_Dark_Ver1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5740019499625582149
+--- !u!4 &670053322928666079
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6350563197188969625}
+  m_GameObject: {fileID: 7896368559628650240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 0.0015439987, z: 0}
+  m_LocalPosition: {x: 12, y: -362.75, z: 53.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8887709922273854522
+--- !u!212 &3757441692013665868
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6350563197188969625}
+  m_GameObject: {fileID: 7896368559628650240}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 712345489
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 665454563, guid: bebebe7e249c36540aac36110a3858ec, type: 3}
+  m_Sprite: {fileID: -969405910, guid: 338690fdb3cb0024bbefdd7e0057605e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -87,14 +87,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &5030989889077676543
+--- !u!50 &5303507777159993752
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6350563197188969625}
+  m_GameObject: {fileID: 7896368559628650240}
   m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -114,25 +114,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6337094495629133774
+--- !u!114 &9076793489171843994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6350563197188969625}
+  m_GameObject: {fileID: 7896368559628650240}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87f28ff43c290044983ada773f2ceb87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!60 &1748192650221121653
+--- !u!60 &7130833210347909785
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6350563197188969625}
+  m_GameObject: {fileID: 7896368559628650240}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -161,8 +161,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 4, y: 8}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8, y: 3.875}
     newSize: {x: 4, y: 8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -170,8 +170,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -2, y: 1.625}
-      - {x: -2, y: 0}
-      - {x: 2, y: 0}
-      - {x: 2, y: 1.625}
+    - - {x: 4, y: 1.0625}
+      - {x: -4, y: 1.0625}
+      - {x: -4, y: -1.9375}
+      - {x: 4, y: -1.9375}
   m_UseDelaunayMesh: 0

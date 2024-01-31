@@ -16,9 +16,10 @@ public class giveDynamicToObjects : MonoBehaviour
 
     void Update()
     {
-        ObjectBottomPoint = gameObject.transform.position - ObjectsBoundsDistance;
-        Debug.Log("Bound bottom coordinate : " + ObjectBottomPoint);
-        spriteRenderer.sortingOrder = Mathf.FloorToInt(ObjectBottomPoint.y) * -1;
+        //ObjectBottomPoint = gameObject.transform.position - ObjectsBoundsDistance;
+        ObjectBottomPoint = gameObject.transform.position;
+        Debug.Log("Object name : " + gameObject.name +" / Bound bottom coordinate : " + ObjectBottomPoint);
+        spriteRenderer.sortingOrder = Mathf.RoundToInt(ObjectBottomPoint.y) * -1;
 
     }
 }

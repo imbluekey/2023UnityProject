@@ -17,7 +17,7 @@ public class DynamicRenderSort : MonoBehaviour
     void Update()
     {
         ObjectBottomPoint = gameObject.transform.position - ObjectsBoundsDistance ;
-        Debug.Log("Object name : " + gameObject.name +" / Bound bottom coordinate : " + ObjectBottomPoint);
-        spriteRenderer.sortingOrder = Mathf.CeilToInt(ObjectBottomPoint.y)*-1;
+        //Debug.Log("Object name : " + gameObject.name +" / Bound bottom coordinate : " + ObjectBottomPoint);
+        spriteRenderer.sortingOrder = Mathf.RoundToInt(ObjectBottomPoint.y)*-1;
     }
 }

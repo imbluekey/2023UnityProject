@@ -6,13 +6,37 @@ public class ArrowControl : MonoBehaviour
 {
 
     public float ArrowDisappearTime = 5.0f;
-    
+    public float ArrowDamage = 1f;
     private Rigidbody2D ArrowRigidbody;
     public bool ArrowFire = false;
     private Vector3 ArrowVector;
     private bool ArrowCollides = false;
     private bool giveDamage;
 
+    private GameObject collisionObject;
+    private Vector3 collisionObjectVector;
+    private Vector3 relativePosition;
+    private Vector3 collisionPosition;
+
+    public float getArrowDamage()
+    {
+        return ArrowDamage;
+    }
+
+    public void setArrowDamage(float damage)
+    {
+        ArrowDamage = damage;
+    }
+
+    public bool getGiveDamage()
+    {
+        return giveDamage;
+    }
+
+    public void setGiveDamage(bool give)
+    {
+        giveDamage = give;
+    }
 
     private void UnactivateArrow()
     {
@@ -25,6 +49,7 @@ public class ArrowControl : MonoBehaviour
     public void ShootArrow(Vector3 Direction ,float speed)
     {
         //Debug.Log("ArrowControl.cs : ShootArrow : Direction Vector value : " + Direction.x + ", " + Direction.y);
+        setArrowDamage((speed / 20) * ArrowDamage);
         ArrowVector = Direction.normalized * speed;
         ArrowFire = true;
     }
@@ -33,17 +58,28 @@ public class ArrowControl : MonoBehaviour
     {
         ArrowRigidbody = gameObject.GetComponent<Rigidbody2D>();
         giveDamage = true;
+        ArrowCollides = false;
     }
 
  
 
     void Update()
     {
+    }
+    bool i2 = true;
+    private void FixedUpdate()
+    {
         if(ArrowCollides == true)
         {
-            ArrowRigidbody.velocity = Vector3.zero;
-            ArrowCollides = false;
-            giveDamage = false;
+            setGiveDamage(false);
+            Debug.Log("collision object name : " + collisionObject.name);
+            Debug.Log("collision object Position: " + collisionObject.transform.position);
+            if (i2 == true)
+            {
+                relativePosition = collisionObject.transform.position - gameObject.transform.position;
+                i2 = false;
+            }
+            gameObject.transform.position = collisionObject.transform.position + relativePosition;
         }
         else if (ArrowFire == true)
         {
@@ -53,16 +89,26 @@ public class ArrowControl : MonoBehaviour
             Invoke("UnactivateArrow", ArrowDisappearTime);
             ArrowFire = false;
         }
+        
     }
 
+    private bool i = true;
     private void OnTriggerEnter2D(Collider2D collision)
-    { //when the arrow collise with the objects....
-        Debug.Log("Arrow collides with the objects . . . ");
-        Debug.Log("collision object name : " + collision.gameObject.name);
-        string collisionObject = collision.gameObject.name;
-        if (collisionObject != "BasicArrow(Clone)" && !ObjectNameDetection.HasString(collisionObject, "RigidBody"))
+    {
+        // Arrow와 RigidBody를 가진 객체는 무시
+        if (ObjectNameDetection.HasString(collision.gameObject.name, "Arrow") || ObjectNameDetection.HasString(collision.gameObject.name, "RigidBody"))
+            return;
+
+        //Debug.Log("OnTriggerEnter2D : collision object name : " + collision.gameObject.name);
+
+        // 충돌한 객체를 설정
+        if (i == true)
         {
             ArrowCollides = true;
+            collisionObject = collision.gameObject;
+            ArrowRigidbody.velocity = Vector2.zero;
+            i = false;
         }
     }
+
 }

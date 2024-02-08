@@ -82,10 +82,18 @@ public class SlimeBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     { //when the arrow collise with the objects....
-        Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.name == "BasicArrow(Clone)")
+        string collisionObjectName = collision.gameObject.name;
+        Debug.Log("Slime Behavior : " + collisionObjectName);
+        if(ObjectNameDetection.HasString(collisionObjectName, "Arrow"))
         {
-            CurrentHealthPoint -= 10f;
+            ArrowControl HitArrow = collision.gameObject.GetComponent<ArrowControl>();
+            float damage = HitArrow.getArrowDamage();
+            Debug.Log("Slime Behavior : Damage by the arrow : " + damage);
+            bool getDamage = HitArrow.getGiveDamage();
+            if (getDamage == true) { 
+                //get damaged when hit by an arrow for only once.
+                CurrentHealthPoint -= damage;
+            }
             if (CurrentHealthPoint <= 0f)
             {
                 Destroy(this.gameObject);

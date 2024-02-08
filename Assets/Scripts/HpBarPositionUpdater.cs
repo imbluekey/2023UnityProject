@@ -16,7 +16,7 @@ public class HpBarPositionUpdater : MonoBehaviour
         OffsetVector = new Vector3(0f, offset, 0f);
         spriteRenderer = target.GetComponent<SpriteRenderer>();
         ObjectsBoundsDistance = new Vector3(0f, spriteRenderer.bounds.extents.y, 0f);
-        Debug.Log("Static Object Bound Distance " + ObjectsBoundsDistance);
+        //Debug.Log("Static Object Bound Distance " + ObjectsBoundsDistance);
     }
 
     // Update is called once per frame

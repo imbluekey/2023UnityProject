@@ -1819,7 +1819,7 @@ GameObject:
   - component: {fileID: 1615877979533802497}
   - component: {fileID: 3543822507826256578}
   - component: {fileID: 6599053506398187209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2532,23 +2532,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 3}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!4 &3292054113906902086
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102627128295547541}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.25, y: -364.40958, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7190152469603647429}
-  - {fileID: 8760870874875612448}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3484315106530800518
 Transform:
   m_ObjectHideFlags: 0
@@ -3176,7 +3159,7 @@ GameObject:
   - component: {fileID: 2022342490550080581}
   - component: {fileID: 8708503819046029189}
   - component: {fileID: 4374267285010315001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HP Bar_Ver2 with Dynamic Trasposition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3378,12 +3361,13 @@ Transform:
   m_GameObject: {fileID: 6718299552101229206}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.25, y: -2.61, z: 0}
+  m_LocalPosition: {x: -2, y: -367, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8595845635425473310}
-  m_Father: {fileID: 3292054113906902086}
+  - {fileID: 8760870874875612448}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7395922437996988116
 MonoBehaviour:
@@ -3407,22 +3391,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6546777533703561782}
   m_CullTransparentMesh: 1
---- !u!1 &8102627128295547541
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3292054113906902086}
-  m_Layer: 6
-  m_Name: Slime5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!61 &8301728232093418558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3529,7 +3497,7 @@ GameObject:
   - component: {fileID: 6014395582385561494}
   - component: {fileID: 4191968435570781149}
   - component: {fileID: 4192712471428010438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HpBarFilled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,11 +3550,11 @@ Transform:
   m_GameObject: {fileID: 6432028281793327726}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.25, y: -3.0900002, z: 0}
+  m_LocalPosition: {x: 0, y: -0.2492981, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3292054113906902086}
+  m_Father: {fileID: 7190152469603647429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8920589962544577230
 Transform:
@@ -3633,4 +3601,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1959438504}
   - {fileID: 2063675914}
-  - {fileID: 3292054113906902086}
+  - {fileID: 7190152469603647429}

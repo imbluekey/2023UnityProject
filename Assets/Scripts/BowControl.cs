@@ -22,6 +22,7 @@ public class BowControl : MonoBehaviour
     private Quaternion ArrowRotation;
     private bool ArrowHolding;
     private ArrowControl ArrowControler;
+    private int AnimationIndex;
 
     public void PlayAnimation()
     {
@@ -60,13 +61,9 @@ public class BowControl : MonoBehaviour
             ArrowHolding = true;
             //gets the Arrow object from the ArrowPool. Must be Activated manually.
             Arrow = ArrowPool.getFromPool();
-            Arrow.SetActive(true);
-            ArrowControler = Arrow.GetComponent<ArrowControl>();  
-                
+            ArrowControler = Arrow.GetComponent<ArrowControl>();
+            ArrowControler.ActivateArrow();  
             BowAnimator.SetBool("BowBend", true); 
-
-
-            
         }
         
         if(ArrowHolding == true )
@@ -85,20 +82,70 @@ public class BowControl : MonoBehaviour
 
         if (Input.GetMouseButtonUp(1) && ArrowHolding == true)
         {
-            BowAnimator.SetBool("BowBend", false);
-            ArrowControler.ShootArrow(BowVector, ArrowSpeed);
-            ArrowHolding = false;
-            ArrowSpeed = originalArrowSpeed;
+            Debug.Log("Animation Index : " + AnimationIndex);
+            if(5 < AnimationIndex)
+            {
+                Debug.Log("Shoot");
+                BowAnimator.SetBool("BowBend", false);
+                ArrowControler.ShootArrow(BowVector, ArrowSpeed);
+                ArrowHolding = false;
+                ArrowSpeed = originalArrowSpeed;
+            }
+            else
+            {
+                BowAnimator.SetBool("BowBend", false);
+                Arrow.SetActive(false);
+                ArrowHolding = false;
+                ArrowSpeed = 0;
+            }
         }
 
 
     }
 
-    void onBowFullCharge(float ArrowSpeedWeight)
+    void onBowFullCharge(int AnimationIndex)
     {
+        Debug.Log("In Function Animation Index : " + AnimationIndex);
+        this.AnimationIndex = AnimationIndex;
+        float speedParameter = 1f;
         //Debug.Log("Bow Animator is at state of Full Charge! | Arrow Speed Weight is " + ArrowSpeedWeight);
-        ArrowSpeed += ArrowSpeedWeight/2;
-        
+        switch (AnimationIndex)
+        {
+            case 0:
+                break;
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4: 
+                break;
+            case 5:
+                break;
+            case 6:
+                speedParameter = 1.1f;
+                break; 
+            case 7:
+                speedParameter = 1.13f;
+                break; 
+            case 8:
+                speedParameter = 1.18f;
+                break;
+            case 9:
+                speedParameter = 1.6f;
+                break; 
+            case 10:
+                speedParameter = 1.6f;
+                break;
+            case 11:
+                speedParameter = 1.7f;
+                break;
+            default:
+                break;
+        }
+        ArrowSpeed = ArrowSpeed * speedParameter;
+
         
     }
 

@@ -18,6 +18,7 @@ public class TargetBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        HealthBarBackground.SetActive(false);
         TargetCurrentHealthPoint = TargetMaxHealthPoint;
 
         HealthBarFilled.fillAmount = 1f;

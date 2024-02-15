@@ -58,7 +58,6 @@ public class SlimeBehavior : MonoBehaviour
         {
             atkDelay -= Time.deltaTime;
         }
-        //sujeongsahangsadasdasd
         mobPos = transform.position;
         distance = Vector2.Distance(player.transform.position, mobPos);
         if (!isAttacking)

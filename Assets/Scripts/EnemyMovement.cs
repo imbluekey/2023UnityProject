@@ -31,8 +31,8 @@ public class EnemyMovement : MonoBehaviour
     public int defense;
     public float speed;
     float chaseRange = 20f;
-    float attackRange = 6f;
-    float attackDelay = 1.75f;
+    float attackRange = 5f;
+    float attackDelay = 1.3f;
     float delay;
 
 
@@ -99,8 +99,9 @@ public class EnemyMovement : MonoBehaviour
                         animator.SetInteger("State", 0);
                         animator.SetBool("isWalking", true);
                         aIPath.canMove = true;
+                        //Debug.Log("chasing");
                     }
-                    //Debug.Log("chasing");
+                    
                 }
             }
             else
@@ -122,7 +123,7 @@ public class EnemyMovement : MonoBehaviour
             //Debug.Log("Player<Mob");
         }
         fliped = spriteRenderer.flipX;
-        Debug.Log(onAttack);
+        //Debug.Log(onAttack);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     { //when the arrow collise with the objects....
@@ -143,7 +144,24 @@ public class EnemyMovement : MonoBehaviour
     }
     public void Attack()
     {
-
+        if (!spriteRenderer.flipX)
+        {
+            if(boxpos.localPosition.x>0)
+                boxpos.localPosition = new Vector2(boxpos.localPosition.x * -1, boxpos.localPosition.y);
+        }
+        else
+        {
+            if(boxpos.localPosition.x < 0)
+                boxpos.localPosition = new Vector2(Mathf.Abs(boxpos.localPosition.x), boxpos.localPosition.y);
+        }
+        Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(boxpos.position, boxSize, 0);
+        foreach(Collider2D collider in collider2Ds)
+        {
+            if(collider.tag == "Player")
+            {
+                collider.GetComponent<Player>().getDamaged(attack);
+            }
+        }
     }
     public void AttackStart()
     {
@@ -152,5 +170,10 @@ public class EnemyMovement : MonoBehaviour
     public void AttackEnd() 
     {
         onAttack = false;
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireCube(boxpos.position, boxSize);
     }
 }

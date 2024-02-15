@@ -23,7 +23,7 @@ public class SlimeBehavior : MonoBehaviour
     bool isMoving;
     bool fliped;
 
-    public float speed = 0.5f;
+    public float speed = 1f;
     float distance;
 
     public GameObject HealthBarBackground;
@@ -57,7 +57,6 @@ public class SlimeBehavior : MonoBehaviour
         {
             atkDelay -= Time.deltaTime;
         }
-
         mobPos = transform.position;
         distance = Vector2.Distance(player.transform.position, mobPos);
         if (!isAttacking)
@@ -115,7 +114,7 @@ public class SlimeBehavior : MonoBehaviour
             mobSprite.flipX = false;
             //Debug.Log("Player<Mob");
         }
-        if (distance <= 4 && distance >= 1)
+        if (distance <= 10 && distance >= 1)
         {
             mobAnimator.SetBool("Following", true);
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);

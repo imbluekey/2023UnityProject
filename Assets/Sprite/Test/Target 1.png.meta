@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: b276c91fce45a2e4db8ea15bfffe6e50
+=======
 guid: f1f4930f150500447bc6c5e6d326f261
+>>>>>>> DongYeon3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -53,7 +57,11 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
+<<<<<<< HEAD
   spriteTessellationDetail: 0
+=======
+  spriteTessellationDetail: -1
+>>>>>>> DongYeon3
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -136,6 +144,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
+<<<<<<< HEAD
     physicsShape:
     - - {x: -13, y: 3}
       - {x: -13, y: -3}
@@ -144,6 +153,12 @@ TextureImporter:
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 1537655665
+=======
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+>>>>>>> DongYeon3
     vertices: []
     indices: 
     edges: []

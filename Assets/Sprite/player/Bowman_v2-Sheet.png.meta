@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 59fcaa9e55c43964ab5ef8ce373ccd84
+=======
 guid: 956bb6d46a8f29d4dbb9f935a0f90fa4
+>>>>>>> DongYeon3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -555,6 +559,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+<<<<<<< HEAD
     - serializedVersion: 2
       name: Bowman_v2-Sheet_20
       rect:
@@ -576,6 +581,8 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+>>>>>>> DongYeon3
     outline: []
     physicsShape: []
     bones: []
@@ -600,7 +607,10 @@ TextureImporter:
       Bowman_v2-Sheet_18: -1919397538
       Bowman_v2-Sheet_19: 173236120
       Bowman_v2-Sheet_2: 1088212966
+<<<<<<< HEAD
       Bowman_v2-Sheet_20: 1268757147
+=======
+>>>>>>> DongYeon3
       Bowman_v2-Sheet_3: -680337009
       Bowman_v2-Sheet_4: 686928886
       Bowman_v2-Sheet_5: 1538033969

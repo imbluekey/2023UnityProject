@@ -421,7 +421,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.2620226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4, y: 8}
     newSize: {x: 4, y: 8}
     adaptiveTilingThreshold: 0.5
@@ -533,10 +533,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 3.39
+  radius: 3.26
   height: 2
   canMove: 0
-  maxSpeed: 5
+  maxSpeed: 4.9
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -555,9 +555,9 @@ MonoBehaviour:
   targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
-  slowdownDistance: 8
+  slowdownDistance: 11.46
   pickNextWaypointDist: 2
-  endReachedDistance: 5
+  endReachedDistance: 5.04
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
@@ -1717,7 +1717,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.2620226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4, y: 8}
     newSize: {x: 4, y: 8}
     adaptiveTilingThreshold: 0.5
@@ -1881,7 +1881,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.2620226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4, y: 8}
     newSize: {x: 4, y: 8}
     adaptiveTilingThreshold: 0.5
@@ -2180,7 +2180,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.2620226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4, y: 8}
     newSize: {x: 4, y: 8}
     adaptiveTilingThreshold: 0.5
@@ -2351,7 +2351,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.2620226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4, y: 8}
     newSize: {x: 4, y: 8}
     adaptiveTilingThreshold: 0.5
@@ -2767,6 +2767,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aIPath: {fileID: 417055224}
   player: {fileID: 0}
+  boxpos: {fileID: 0}
+  boxSize: {x: 0, y: 0}
   HealthBarBackground: {fileID: 514119819}
   HealthBarFilled: {fileID: 1116732910}
   maxHp: 500

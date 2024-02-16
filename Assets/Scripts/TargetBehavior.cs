@@ -12,6 +12,10 @@ public class TargetBehavior : MonoBehaviour
 
     public GameObject HealthBarBackground;
     public Image HealthBarFilled;
+    public float MaxHealthPoint;
+    public float CurrentHealthPoint;
+
+
 
     //private RectTransform hpBarRectTransform;
 
@@ -43,15 +47,23 @@ public class TargetBehavior : MonoBehaviour
     { //when the arrow collise with the objects....
         Debug.Log("ArrowTarget collides with the objects . . . ");
         Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.name == "BasicArrow(Clone)")
+        if (ObjectNameDetection.HasString(collision.gameObject.name, "Arrow"))
         {
-            TargetCurrentHealthPoint -= 10f;
-            if(TargetCurrentHealthPoint <= 0f)
+            ArrowControl HitArrow = collision.gameObject.GetComponent<ArrowControl>();
+            float damage = HitArrow.getArrowDamage();
+            Debug.Log("Slime Behavior : Damage by the arrow : " + damage);
+            bool getDamage = HitArrow.getGiveDamage();
+            if (getDamage == true)
+            {
+                //get damaged when hit by an arrow for only once.
+                CurrentHealthPoint -= damage;
+            }
+            if (CurrentHealthPoint <= 0f)
             {
                 Destroy(this.gameObject);
                 Destroy(this.HealthBarBackground);
             }
-            HealthBarFilled.fillAmount = TargetCurrentHealthPoint / TargetMaxHealthPoint;
+            HealthBarFilled.fillAmount = CurrentHealthPoint / MaxHealthPoint;
             HealthBarBackground.SetActive(true);
         }
     }

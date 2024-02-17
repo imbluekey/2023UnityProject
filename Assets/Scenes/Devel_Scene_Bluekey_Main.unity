@@ -1753,7 +1753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonSpriteRenderer: {fileID: 0}
   interactionKey: 101
-  sceneToLoad: 
+  sceneToLoad: Devel_Scene_Bluekey_Main_2
 --- !u!1001 &1223139809
 PrefabInstance:
   m_ObjectHideFlags: 0

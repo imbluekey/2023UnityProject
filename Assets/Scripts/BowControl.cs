@@ -133,13 +133,13 @@ public class BowControl : MonoBehaviour
                 speedParameter = 1.18f;
                 break;
             case 9:
-                speedParameter = 1.5f;
+                speedParameter = 1.6f;
                 break; 
             case 10:
-                speedParameter = 1.52f;
+                speedParameter = 1.6f;
                 break;
             case 11:
-                speedParameter = 1.6f;
+                speedParameter = 1.7f;
                 break;
             default:
                 break;

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\slimebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slimebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|c:\\users\\bluekey\\2024unity_project\\2023unityproject\\assets\\scripts\\bowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\arrowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\targetbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\targetbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|c:\\users\\bluekey\\2024unity_project\\2023unityproject\\assets\\scripts\\hpbarpositionupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hpbarpositionupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\givedynamictoobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\givedynamictoobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\dynamicrendersort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dynamicrendersort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TargetBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\TargetBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TargetBehavior.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\TargetBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TargetBehavior.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAywBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T14:10:24.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SlimeBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\SlimeBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SlimeBehavior.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\SlimeBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SlimeBehavior.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwv0AAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T06:03:41.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMove.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAASwE0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T13:00:37.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArrowControl.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\ArrowControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ArrowControl.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\ArrowControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ArrowControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-10T12:08:56.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BowControl.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\BowControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BowControl.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\BowControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BowControl.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAgwIgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T13:31:41.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ObjectPooling.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\ObjectPooling.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPooling.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\ObjectPooling.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectPooling.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxAAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-31T12:54:26.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DynamicRenderSort.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\DynamicRenderSort.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DynamicRenderSort.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\DynamicRenderSort.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DynamicRenderSort.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-29T08:40:50.977Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "giveDynamicToObjects.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\giveDynamicToObjects.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\giveDynamicToObjects.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\giveDynamicToObjects.cs",
+              "RelativeToolTip": "Assets\\Scripts\\giveDynamicToObjects.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T06:05:55.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HpBarPositionUpdater.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\HpBarPositionUpdater.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HpBarPositionUpdater.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\HpBarPositionUpdater.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HpBarPositionUpdater.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T06:05:47.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

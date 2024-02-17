@@ -95,6 +95,7 @@ public class ArrowControl : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         collisionObjectName = collision.gameObject.name;
+        Debug.Log("Arrow Control : Collision Object Name : " + collisionObjectName);
         // 이름에 Arrow와 RigidBody를 가진 객체는 무시
         if (ObjectNameDetection.HasString(collisionObjectName, "Arrow") ||
             ObjectNameDetection.HasString(collisionObjectName, "RigidBody") ||

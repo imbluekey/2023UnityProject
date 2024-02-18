@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: d88083173b66cd24489c36815b7ba379
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 16}
+        - {x: -12, y: 0}
+        - {x: -10, y: -2}
+        - {x: -6, y: -2}
+        - {x: -4, y: 0}
+        - {x: -4, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64b0f4c78617c9469550a785f8bfed8
+      internalID: -1715210539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86615d43e5d4a5c4aa8c6fbc33da6848
+      internalID: -264780265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe4cacdf3e97f94498544620697b52b
+      internalID: 1196746956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00531c67f7d1b2c46875553e60934a71
+      internalID: 1798805879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8e5767d16f5eb418d8dbba46a6c543
+      internalID: -146942280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fc6f047db4ae349a2978d2ad2fbe34
+      internalID: -633706620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc3f1246c5f6874e98d0171e6a1d02f
+      internalID: 804593858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e1e1475ebd75444a4c7b8210006c70
+      internalID: -351918873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc54efcfc53d5bc4e8a4d27d611d6d83
+      internalID: 1262844339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f43f9e74ccca642b8dfcf05eceeb52
+      internalID: -823623459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610b29bb129ebdf4592b7c46a24a1e3d
+      internalID: 1442283716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3145aba8f27b9904bb894716ceded584
+      internalID: -35260021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44baf37aa74a4b428be93ce4c850530
+      internalID: -1435541905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd2fb7199291f441888bf30996ccf81
+      internalID: 452855397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc19a2be5e0afeb41be97d094a0fae18
+      internalID: -901093523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048b6f64d8fb1e2418677e647c9c31f6
+      internalID: 641906063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092832274b2118e42a7b4f83e74579fb
+      internalID: 664459968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a5a992e14c9024583c91d798ef2fa6
+      internalID: -310568292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0a7bce1858c4046a667624ac34dde1
+      internalID: 1920095308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814feefd43ff52c48a3d9e4368eb34d4
+      internalID: -159905502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7727fb1a9e04f8e4e8942046468ab4e5
+      internalID: 1989550976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6ba833fbd3edd41b5b2d8be9a57fa7
+      internalID: 979720727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dacdde951cf734bb782deb108b97e5
+      internalID: -1135333316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da0cf73f75ed60458aa40eefb3ca431
+      internalID: -1205096777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 16}
+        - {x: -13, y: 0}
+        - {x: -11, y: -2}
+        - {x: -5, y: -2}
+        - {x: -3, y: 0}
+        - {x: -3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7c087253c76554285ca46dbc482ee6
+      internalID: 1929040697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 16}
+        - {x: 3, y: 0}
+        - {x: 5, y: -2}
+        - {x: 11, y: -2}
+        - {x: 13, y: 0}
+        - {x: 13, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3441f7433dfff6c42a1882d3289b6c3a
+      internalID: -857250868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 0}
+        - {x: -13, y: -16}
+        - {x: -3, y: -16}
+        - {x: -3, y: 0}
+        - {x: -5, y: 2}
+        - {x: -11, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3273520538cca284798c767884679d97
+      internalID: -453320753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 0}
+        - {x: -13, y: -16}
+        - {x: -3, y: -16}
+        - {x: -3, y: 0}
+        - {x: -5, y: 2}
+        - {x: -11, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db03a39a30df4124bae3ac958443fdcb
+      internalID: 731466861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 6}
+        - {x: -4, y: 16}
+        - {x: -15, y: 16}
+        - {x: -15, y: -2}
+        - {x: -4, y: -2}
+        - {x: 1, y: -2}
+        - {x: 1, y: 1}
+        - {x: -4, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1d3468c9a96ab4683503cb3a1810e2
+      internalID: 1739145505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 16}
+        - {x: 1, y: 1}
+        - {x: 2, y: -2}
+        - {x: 11, y: -2}
+        - {x: 16, y: 0}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5915b2a5b096048b4eb74aad13068a
+      internalID: -272616628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 2}
+        - {x: -15, y: -2}
+        - {x: -15, y: -13}
+        - {x: -14, y: -16}
+        - {x: 2, y: -16}
+        - {x: 2, y: -2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e0b88a743dec84f97d2bd982ab1e3e
+      internalID: -1170689861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 2}
+        - {x: 1, y: -2}
+        - {x: 1, y: -13}
+        - {x: 3, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 12, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb12259a2ce18f4b877de4909050043
+      internalID: 478640662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: 0}
+        - {x: -14, y: -2}
+        - {x: -2, y: -2}
+        - {x: 1, y: -1}
+        - {x: 2, y: 0}
+        - {x: 2, y: 15}
+        - {x: 0, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5505af6c0c333c549bb8b482b4984963
+      internalID: 666982367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 16}
+        - {x: -2, y: -1}
+        - {x: 0, y: -2}
+        - {x: 11, y: -2}
+        - {x: 16, y: -1}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf2a05f55f8e9f4bba9f3ff5edc24c0
+      internalID: -1661462855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 2}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 2, y: -16}
+        - {x: 2, y: 0}
+        - {x: -3, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9060ee42484ca1d4586257a9ffaf7c26
+      internalID: 1111673767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 2}
+        - {x: -2, y: 1}
+        - {x: -2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 12, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06626a77ca7acf4db22dd9a81e2bbdd
+      internalID: -1163810152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: 0}
+        - {x: -11, y: -2}
+        - {x: -4, y: -2}
+        - {x: -1, y: 2}
+        - {x: -1, y: 12}
+        - {x: -3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bef8b73fe222614b8f0a62232af0811
+      internalID: -1681642896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 16}
+        - {x: -2, y: 0}
+        - {x: 2, y: -2}
+        - {x: 14, y: -2}
+        - {x: 15, y: 1}
+        - {x: 15, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89861c41cf5a5924489b052b5be1c35e
+      internalID: 55248005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 2}
+        - {x: -16, y: 1}
+        - {x: -16, y: -16}
+        - {x: -1, y: -16}
+        - {x: -1, y: 0}
+        - {x: -2, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e274d4f806b7a4e9774e791de7aadd
+      internalID: 1987371512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 2}
+        - {x: -2, y: -2}
+        - {x: -2, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: -3}
+        - {x: 12, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd628ad962c107418ed06ffbb3ddd7a
+      internalID: 1972739824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 16}
+        - {x: -13, y: 0}
+        - {x: -11, y: -2}
+        - {x: -5, y: -2}
+        - {x: -3, y: 0}
+        - {x: -3, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4168ed501375d478b19fc7549d89e2
+      internalID: 444456623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 16}
+        - {x: 1, y: 15}
+        - {x: 1, y: 3}
+        - {x: 5, y: -2}
+        - {x: 11, y: -2}
+        - {x: 16, y: 0}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d10c6aad6939d149b6c0f98b47a8ef1
+      internalID: 843116406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 15}
+        - {x: -15, y: 1}
+        - {x: -14, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cc446908c087246b1e6f51a72400c2
+      internalID: -1819584235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 16}
+        - {x: 1, y: 15}
+        - {x: 1, y: 3}
+        - {x: 5, y: -2}
+        - {x: 11, y: -2}
+        - {x: 16, y: 0}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b78c43d4b764f469d818e5e00c6f70
+      internalID: -1035118272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: 2}
+        - {x: -15, y: -2}
+        - {x: -15, y: -13}
+        - {x: -14, y: -16}
+        - {x: 2, y: -16}
+        - {x: 2, y: -1}
+        - {x: -3, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395af1bbdea97c44b9fd431106cdc0e2
+      internalID: -1934169899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 1, y: 0}
+        - {x: 1, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 13, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5264bcc7fca5344bc15a5c9a085a5e
+      internalID: -1109013616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 0}
+        - {x: -11, y: -2}
+        - {x: -4, y: -2}
+        - {x: -1, y: 0}
+        - {x: -1, y: 12}
+        - {x: -2, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ac351ce227a9d46901eeaab3ed1b57
+      internalID: -264781066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 16}
+        - {x: -2, y: -2}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+        - {x: 14, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdd6a792e68b3741825b52100e8198b
+      internalID: -582309245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: 0}
+        - {x: -11, y: -2}
+        - {x: -4, y: -2}
+        - {x: -1, y: 0}
+        - {x: -1, y: 12}
+        - {x: -2, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeda15a8d9aef24eae8d1ae2ade234a
+      internalID: -1433312523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 16}
+        - {x: -2, y: -2}
+        - {x: 15, y: -2}
+        - {x: 15, y: 15}
+        - {x: 14, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bf7d3ecde799044b3fb94e67b08f02
+      internalID: 1807593479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 2}
+        - {x: -16, y: 0}
+        - {x: -16, y: -16}
+        - {x: -1, y: -16}
+        - {x: -1, y: -1}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ce899776dbafc4c85f0b3660ab1f44
+      internalID: -2095075689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-WOOD FENCE BOWMAN HOUSE_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 2}
+        - {x: -2, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: -3}
+        - {x: 13, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85d25265c4e73c44a80f6a61c738ec3
+      internalID: 921576598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sprite-WOOD FENCE BOWMAN HOUSE_0: -1715210539
+      Sprite-WOOD FENCE BOWMAN HOUSE_1: -264780265
+      Sprite-WOOD FENCE BOWMAN HOUSE_10: 1442283716
+      Sprite-WOOD FENCE BOWMAN HOUSE_11: -35260021
+      Sprite-WOOD FENCE BOWMAN HOUSE_12: -1435541905
+      Sprite-WOOD FENCE BOWMAN HOUSE_13: 452855397
+      Sprite-WOOD FENCE BOWMAN HOUSE_14: -901093523
+      Sprite-WOOD FENCE BOWMAN HOUSE_15: 641906063
+      Sprite-WOOD FENCE BOWMAN HOUSE_16: 664459968
+      Sprite-WOOD FENCE BOWMAN HOUSE_17: -310568292
+      Sprite-WOOD FENCE BOWMAN HOUSE_18: 1920095308
+      Sprite-WOOD FENCE BOWMAN HOUSE_19: -159905502
+      Sprite-WOOD FENCE BOWMAN HOUSE_2: 1196746956
+      Sprite-WOOD FENCE BOWMAN HOUSE_20: 1989550976
+      Sprite-WOOD FENCE BOWMAN HOUSE_21: 979720727
+      Sprite-WOOD FENCE BOWMAN HOUSE_22: -1135333316
+      Sprite-WOOD FENCE BOWMAN HOUSE_23: -1205096777
+      Sprite-WOOD FENCE BOWMAN HOUSE_24: 1929040697
+      Sprite-WOOD FENCE BOWMAN HOUSE_25: -857250868
+      Sprite-WOOD FENCE BOWMAN HOUSE_26: -453320753
+      Sprite-WOOD FENCE BOWMAN HOUSE_27: 731466861
+      Sprite-WOOD FENCE BOWMAN HOUSE_28: 1739145505
+      Sprite-WOOD FENCE BOWMAN HOUSE_29: -272616628
+      Sprite-WOOD FENCE BOWMAN HOUSE_3: 1798805879
+      Sprite-WOOD FENCE BOWMAN HOUSE_30: -1170689861
+      Sprite-WOOD FENCE BOWMAN HOUSE_31: 478640662
+      Sprite-WOOD FENCE BOWMAN HOUSE_32: 666982367
+      Sprite-WOOD FENCE BOWMAN HOUSE_33: -1661462855
+      Sprite-WOOD FENCE BOWMAN HOUSE_34: 1111673767
+      Sprite-WOOD FENCE BOWMAN HOUSE_35: -1163810152
+      Sprite-WOOD FENCE BOWMAN HOUSE_36: -1681642896
+      Sprite-WOOD FENCE BOWMAN HOUSE_37: 55248005
+      Sprite-WOOD FENCE BOWMAN HOUSE_38: 1987371512
+      Sprite-WOOD FENCE BOWMAN HOUSE_39: 1972739824
+      Sprite-WOOD FENCE BOWMAN HOUSE_4: -146942280
+      Sprite-WOOD FENCE BOWMAN HOUSE_40: 444456623
+      Sprite-WOOD FENCE BOWMAN HOUSE_41: 843116406
+      Sprite-WOOD FENCE BOWMAN HOUSE_42: -1819584235
+      Sprite-WOOD FENCE BOWMAN HOUSE_43: -1035118272
+      Sprite-WOOD FENCE BOWMAN HOUSE_44: -1934169899
+      Sprite-WOOD FENCE BOWMAN HOUSE_45: -1109013616
+      Sprite-WOOD FENCE BOWMAN HOUSE_46: -264781066
+      Sprite-WOOD FENCE BOWMAN HOUSE_47: -582309245
+      Sprite-WOOD FENCE BOWMAN HOUSE_48: -1433312523
+      Sprite-WOOD FENCE BOWMAN HOUSE_49: 1807593479
+      Sprite-WOOD FENCE BOWMAN HOUSE_5: -633706620
+      Sprite-WOOD FENCE BOWMAN HOUSE_50: -2095075689
+      Sprite-WOOD FENCE BOWMAN HOUSE_51: 921576598
+      Sprite-WOOD FENCE BOWMAN HOUSE_6: 804593858
+      Sprite-WOOD FENCE BOWMAN HOUSE_7: -351918873
+      Sprite-WOOD FENCE BOWMAN HOUSE_8: 1262844339
+      Sprite-WOOD FENCE BOWMAN HOUSE_9: -823623459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

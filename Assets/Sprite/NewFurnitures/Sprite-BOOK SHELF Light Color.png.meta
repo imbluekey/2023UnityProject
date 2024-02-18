@@ -143,8 +143,8 @@ TextureImporter:
         y: 224
         width: 32
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -250,8 +250,6 @@ TextureImporter:
       Sprite-BOOK SHELF Light Color_1: -289125975
       Sprite-BOOK SHELF Light Color_2: 2110753281
       Sprite-BOOK SHELF Light Color_3: 665454563
-      Sprite-BOOK SHELF Light Color_4: -474701632
-      Sprite-BOOK SHELF Light Color_5: 437726689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

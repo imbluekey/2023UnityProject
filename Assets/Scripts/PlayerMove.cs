@@ -29,23 +29,23 @@ public class PlayerMove : MonoBehaviour
          */
         if (Input.GetKey(KeyCode.W))
         { // When pressing Upper Arrow
-            yInput = 1f;
+            yInput += 1f;
             //Debug.Log("Player : GetKey > UP");
         }
-        else if(Input.GetKey(KeyCode.S))
+        if(Input.GetKey(KeyCode.S))
         { // When Pressing Down Arrow
-            yInput = -1f;
+            yInput -= 1f;
             //Debug.Log("Player : GetKey > DOWN");
         }
         if (Input.GetKey(KeyCode.D))
         { // When Pressing Right Arrow
-            xInput = 1f;
+            xInput += 1f;
             playerSprite.flipX = false; // Player Component watches rightside.
             //Debug.Log("Player : GetKey > RIGHT");
         }
-        else if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         { // When Pressing Left Arrow
-            xInput = -1f;
+            xInput -= 1f;
             playerSprite.flipX = true; // Player Component watches leftside
             //Debug.Log("Player : GetKey > LEFT");
         }

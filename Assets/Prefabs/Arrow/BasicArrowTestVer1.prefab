@@ -162,5 +162,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArrowDisappearTime: 10
-  ArrowDamage: 1
+  ArrowDamage: 40
   ArrowFire: 0

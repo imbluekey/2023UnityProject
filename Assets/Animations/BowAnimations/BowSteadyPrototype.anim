@@ -157,11 +157,11 @@ AnimationClip:
     intParameter: 7
     messageOptions: 0
   - time: 0.5833333
-    functionName: onBowFullCharge
+    functionName: PlayAnimation
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 9
+    intParameter: 0
     messageOptions: 0
   - time: 0.6666667
     functionName: onBowFullCharge
@@ -171,11 +171,11 @@ AnimationClip:
     intParameter: 8
     messageOptions: 0
   - time: 0.75
-    functionName: PlayAnimation
+    functionName: onBowFullCharge
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 0
+    intParameter: 9
     messageOptions: 0
   - time: 0.8333333
     functionName: onBowFullCharge

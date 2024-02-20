@@ -14,6 +14,9 @@ public class BowControl : MonoBehaviour
     public float ArrowSpeed;
     public Animator BowAnimator;
 
+    public AudioSource Loading;
+    public AudioSource Launching;
+
     private float originalArrowSpeed;
     private GameObject Arrow;
     private Vector3 playerPosition; 
@@ -59,6 +62,7 @@ public class BowControl : MonoBehaviour
         if (Input.GetMouseButtonDown(1) && ArrowHolding == false) 
         {
             ArrowHolding = true;
+            Loading.Play();
             //gets the Arrow object from the ArrowPool. Must be Activated manually.
             Arrow = ArrowPool.getFromPool();
             ArrowControler = Arrow.GetComponent<ArrowControl>();
@@ -85,7 +89,8 @@ public class BowControl : MonoBehaviour
             Debug.Log("Animation Index : " + AnimationIndex);
             if(5 < AnimationIndex)
             {
-                Debug.Log("Shoot");
+                //Debug.Log("Shoot");
+                Launching.Play();
                 BowAnimator.SetBool("BowBend", false);
                 ArrowControler.ShootArrow(BowVector, ArrowSpeed);
                 ArrowHolding = false;

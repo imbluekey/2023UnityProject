@@ -6,10 +6,12 @@ public class PerfectShotEffectController : MonoBehaviour
 {
     public Animator EffectAnimator;
     public GameObject Bow;
-    
+    public AudioSource PerfectShotAudioEffect;
+
     public void PlayAnimation()
     {
         EffectAnimator.SetBool("Perfect", true);
+        PerfectShotAudioEffect.Play();
     }
 
     public void StopAnimation()
@@ -29,5 +31,6 @@ public class PerfectShotEffectController : MonoBehaviour
     {
         
         gameObject.transform.position = Bow.transform.position;    
+
     }
 }

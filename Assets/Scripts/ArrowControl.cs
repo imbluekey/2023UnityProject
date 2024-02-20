@@ -49,7 +49,6 @@ public class ArrowControl : MonoBehaviour
     public void ActivateArrow()
     {
         gameObject.SetActive(true);
-        giveDamage = true;
         ArrowFire = false;
         ArrowCollides = false;
         i = true;
@@ -73,6 +72,7 @@ public class ArrowControl : MonoBehaviour
     {
         if (ArrowCollides == true)
         {
+            ArrowFire = false;
             setGiveDamage(false);
             if (ObjectNameDetection.HasString(collisionObjectName, "Monster"))
             {
@@ -85,11 +85,10 @@ public class ArrowControl : MonoBehaviour
         {
             //Debug.Log("ArrowControl : Update : 화살 속도 : " + ArrowSpeed);
             //Debug.Log("ArrowControl : Update : 화살 벡터 : " + ArrowVector.x + " / " + ArrowVector.y);
+            giveDamage = true;
             ArrowRigidbody.velocity = ArrowVector;
             Invoke("UnactivateArrow", ArrowDisappearTime);
-            ArrowFire = false;
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -102,10 +101,12 @@ public class ArrowControl : MonoBehaviour
             ObjectNameDetection.HasString(collisionObjectName, "Player"))
         {
             return;
-
         }
 
-        
+        if(ArrowFire == false)
+        {
+            return;
+        }
 
         // 충돌한 객체를 설정
         if (i == true)

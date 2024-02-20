@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Devel_Scene_Bluekey_Main.unity
+- path: Assets/Scenes/Scene1_hunter_wood_for_Bluekey.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

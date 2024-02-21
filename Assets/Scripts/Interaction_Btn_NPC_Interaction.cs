@@ -9,6 +9,8 @@ public class Interaction_Btn_NPC_Interaction : MonoBehaviour
     public SpriteRenderer buttonSpriteRenderer; 
     public KeyCode interactionKey = KeyCode.E;
     public string sceneToLoad;
+    public GameObject conversationTxtUI;
+    private npcPartControler partControler;
     private bool playerInRange = false; 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -34,6 +36,7 @@ public class Interaction_Btn_NPC_Interaction : MonoBehaviour
     {
         buttonSpriteRenderer = GetComponent<SpriteRenderer>();
         buttonSpriteRenderer.color = new Color(1f, 1f, 1f, 0f);
+        partControler = conversationTxtUI.GetComponent<npcPartControler>();
     }
 
     private void Update()
@@ -43,6 +46,7 @@ public class Interaction_Btn_NPC_Interaction : MonoBehaviour
             
             Debug.Log("Interaction_Btn_NPC_Interaction : start talking with [" + gameObject.name + "]");
             ConversationUI.SetActive(true);
+            partControler.setNextPartString();
         }
         
     }

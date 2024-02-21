@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|c:\\users\\bluekey\\2024unity_project\\2023unityproject\\assets\\scripts\\scene_fadeineffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene_fadeineffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Editor\\TMPro_FontAssetCreatorWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Editor\\TMPro_FontAssetCreatorWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\arrowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\npcpartcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcpartcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\interaction_btn_npc_interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction_btn_npc_interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\bowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9809CF9B-EA06-3EB2-4A91-78920B76D504}|AstarPathfindingProject.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\astarpathfindingproject\\core\\astarpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9809CF9B-EA06-3EB2-4A91-78920B76D504}|AstarPathfindingProject.csproj|solutionrelative:assets\\astarpathfindingproject\\core\\astarpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\bluekey\\2024unity_project\\2023unityproject\\assets\\scripts\\interaction_btn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\interaction_btn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\perfectshoteffectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\perfectshoteffectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\interaction_collilder_chagnescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interaction_collilder_chagnescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\scene_fadeouteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene_fadeouteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\arrowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrowcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81611DB7-B6CB-7C63-23CA-2DB910DE229F}|Assembly-CSharp.csproj|C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\assets\\scripts\\slimebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,55 +67,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Scene_FadeInEffect.cs",
-              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Scene_FadeInEffect.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene_FadeInEffect.cs",
-              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Scene_FadeInEffect.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Scene_FadeInEffect.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvyAAAAABAAAA",
+              "Title": "TMPro_FontAssetCreatorWindow.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Editor\\TMPro_FontAssetCreatorWindow.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Editor\\TMPro_FontAssetCreatorWindow.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Editor\\TMPro_FontAssetCreatorWindow.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Editor\\TMPro_FontAssetCreatorWindow.cs",
+              "ViewState": "AQIAAKUCAAAAAAAAAAASwLcCAAAJAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T11:03:53.223Z",
+              "WhenOpened": "2024-02-21T08:24:13.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "npcPartControler.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\npcPartControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\npcPartControler.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\npcPartControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\npcPartControler.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwCUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T13:17:49.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interaction_Btn_NPC_Interaction.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Interaction_Btn_NPC_Interaction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction_Btn_NPC_Interaction.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Interaction_Btn_NPC_Interaction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interaction_Btn_NPC_Interaction.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwCYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T13:01:08.636Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AstarPath.cs",
-              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\AstarPathfindingProject\\Core\\AstarPath.cs",
-              "RelativeDocumentMoniker": "Assets\\AstarPathfindingProject\\Core\\AstarPath.cs",
-              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\AstarPathfindingProject\\Core\\AstarPath.cs",
-              "RelativeToolTip": "Assets\\AstarPathfindingProject\\Core\\AstarPath.cs",
-              "ViewState": "AQIAADIDAAAAAAAAAAASwEIDAAAeAAAA",
+              "Title": "PerfectShotEffectController.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\PerfectShotEffectController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PerfectShotEffectController.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\PerfectShotEffectController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PerfectShotEffectController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T10:29:57.071Z"
+              "WhenOpened": "2024-02-20T12:40:04.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Interaction_Btn.cs",
-              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Interaction_Btn.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction_Btn.cs",
-              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Interaction_Btn.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interaction_Btn.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T12:08:42.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Interaction_Collilder_ChagneScene.cs",
               "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Interaction_Collilder_ChagneScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interaction_Collilder_ChagneScene.cs",
               "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Interaction_Collilder_ChagneScene.cs",
               "RelativeToolTip": "Assets\\Scripts\\Interaction_Collilder_ChagneScene.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwAcAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-19T08:42:47.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "Scene_FadeOutEffect.cs",
+              "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Scene_FadeOutEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene_FadeOutEffect.cs",
+              "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\Scene_FadeOutEffect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene_FadeOutEffect.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:11:34.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "TargetBehavior.cs",
               "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\TargetBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TargetBehavior.cs",
@@ -119,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "SlimeBehavior.cs",
               "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\SlimeBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SlimeBehavior.cs",
@@ -131,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMove.cs",
@@ -143,19 +175,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BowControl.cs",
               "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\BowControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BowControl.cs",
               "ToolTip": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\BowControl.cs",
               "RelativeToolTip": "Assets\\Scripts\\BowControl.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAQwF0AAAAQAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAQwFwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-06T13:31:41.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ArrowControl.cs",
               "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\ArrowControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArrowControl.cs",
@@ -167,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ObjectPooling.cs",
               "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\ObjectPooling.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPooling.cs",
@@ -179,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "DynamicRenderSort.cs",
               "DocumentMoniker": "C:\\Users\\bluekey\\2024Unity_Project\\2023UnityProject\\Assets\\Scripts\\DynamicRenderSort.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DynamicRenderSort.cs",

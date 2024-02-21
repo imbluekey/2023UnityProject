@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 663434591099941621}
   - component: {fileID: 1809384069987898441}
   - component: {fileID: 1083902161555496971}
+  - component: {fileID: 5252628351886911236}
   m_Layer: 5
   m_Name: Conversation_TXT
   m_TagString: Untagged
@@ -65,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is Conversation UI
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -134,6 +135,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &5252628351886911236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3138318680465386296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b0b1ff98a58ba45832792fbb52f4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: npc_text1.txt
+  filePath: 
 --- !u!1 &3863072177130180285
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,6 +388,7 @@ MonoBehaviour:
   buttonSpriteRenderer: {fileID: 0}
   interactionKey: 101
   sceneToLoad: 
+  conversationTxtUI: {fileID: 3138318680465386296}
 --- !u!1 &6285584196019545903
 GameObject:
   m_ObjectHideFlags: 0

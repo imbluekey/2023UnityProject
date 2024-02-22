@@ -14,6 +14,7 @@ public class ArrowControl : MonoBehaviour
     private bool giveDamage;
     private string collisionObjectName;
     private bool i = true;
+    private AudioSource AS;
 
     public float getArrowDamage()
     {
@@ -65,6 +66,7 @@ public class ArrowControl : MonoBehaviour
     void Start()
     {
         ArrowRigidbody = gameObject.GetComponent<Rigidbody2D>();
+        AS = gameObject.GetComponent<AudioSource>();
     }
 
     bool i2 = true;
@@ -114,6 +116,7 @@ public class ArrowControl : MonoBehaviour
             ArrowCollides = true;
             ArrowRigidbody.velocity = Vector2.zero;
             i = false;
+            AS.Play();
         }
     }
 
